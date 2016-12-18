@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/third"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kemooo.exproject.Third_layout"
+    android:background="@android:color/background_light">
+
+    <android.support.v4.view.ViewPager
+
+        android:layout_width="match_parent"
+        android:id="@+id/view_pager"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="250dp" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_height="44dp"
+        android:layout_width="match_parent"
+        android:id="@+id/indicator"
+
+
+        app:ci_drawable="@color/colorPrimary"
+        android:layout_below="@+id/view_pager"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Code: Motto bedroom 180 cm"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView5"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/indicator"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
