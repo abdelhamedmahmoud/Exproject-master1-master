@@ -12,74 +12,6 @@
     android:background="@drawable/screen">
 
     <TextView
-        android:text="Product description"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="154dp"
-        android:id="@+id/prdecs"
-        android:textStyle="bold|italic"
-        android:textColor="@color/colorPrimary"
-        android:textSize="18sp" />
-
-    <Spinner
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:layout_below="@+id/prdecs"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/Description"
-        android:background="@android:drawable/spinner_background"
-        android:paddingLeft="70dp"
-        android:layout_marginBottom="20dp" />
-
-    <TextView
-        android:text="Wood Type "
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Description"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/colorPrimary"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        android:id="@+id/wood" />
-
-    <Spinner
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:id="@+id/woodtype"
-        android:layout_below="@+id/wood"
-        android:layout_alignLeft="@+id/wood"
-        android:layout_alignStart="@+id/wood"
-        android:background="@android:drawable/spinner_background"
-        android:layout_marginBottom="20dp"
-        android:paddingLeft="70dp" />
-
-    <Spinner
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:id="@+id/colortype"
-        android:layout_below="@+id/color"
-        android:layout_alignLeft="@+id/color"
-        android:layout_alignStart="@+id/color"
-        android:background="@android:drawable/spinner_background"
-        android:layout_marginBottom="20dp"
-        android:paddingLeft="70dp" />
-
-    <TextView
-        android:text="Bed Dimension"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/texture"
-        android:textStyle="bold|italic"
-        android:textColor="@color/colorPrimary"
-        android:textSize="18sp"
-        android:layout_below="@+id/colortype"
-        android:layout_alignLeft="@+id/Dimn"
-        android:layout_alignStart="@+id/Dimn"
-        android:alpha="0" />
-
-    <TextView
         android:text="Pieces Color"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -88,28 +20,50 @@
         android:textStyle="bold|italic"
         android:textSize="18sp"
         android:fontFamily="sans-serif"
-        android:layout_below="@+id/woodtype"
+        android:layout_above="@+id/colortype"
         android:layout_alignLeft="@+id/woodtype"
         android:layout_alignStart="@+id/woodtype" />
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/woodtype"
+        android:background="@android:drawable/spinner_background"
+        android:layout_marginBottom="52dp"
+        android:paddingLeft="70dp"
+        android:layout_above="@+id/color"
+        android:layout_alignLeft="@+id/wood"
+        android:layout_alignStart="@+id/wood" />
+
+    <TextView
+        android:text="Wood Type "
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/wood"
+        android:layout_above="@+id/woodtype"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:id="@+id/button2"
         android:background="@drawable/next"
-        android:layout_below="@+id/Dimn"
-        android:layout_alignLeft="@+id/Dimn"
-        android:layout_alignStart="@+id/Dimn" />
+        android:layout_marginBottom="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/colortype"
+        android:layout_alignStart="@+id/colortype" />
 
     <Spinner
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:id="@+id/Dimn"
+        android:id="@+id/colortype"
         android:background="@android:drawable/spinner_background"
-        android:alpha="0"
-        android:paddingLeft="83dp"
-        android:layout_below="@+id/texture"
-        android:layout_alignLeft="@+id/colortype"
-        android:layout_alignStart="@+id/colortype"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="36dp"
+        android:paddingLeft="70dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/color"
+        android:layout_alignStart="@+id/color" />
 </RelativeLayout>

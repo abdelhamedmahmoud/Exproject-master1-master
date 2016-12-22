@@ -27,7 +27,6 @@ public class Third_layout extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(viewPager);
-        getSelectedFeatures.getFeatures();
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {

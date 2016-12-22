@@ -4,7 +4,13 @@ package com.example.kemooo.exproject;
  * Created by MRABAH on 20/12/2016.
  */
 
+
 public class getSelectedFeatures {
+
+    static String roomName;
+   static Boolean NotfoundState=false;
+
+
     public static void getFeatures() {
         if (first_layout.category.equals("Bed Rooms")) {
             if (first_layout.price.equals("10,000 - 20,000")) {
@@ -12,93 +18,97 @@ public class getSelectedFeatures {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl101};
-                            CustomSwipeAdapter.textView.setText(R.string.bl101_details);
+                            roomName=""+(R.string.bl101_details);
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not Found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not Found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("3 * 4")) {
                     if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl102};
-                            CustomSwipeAdapter.textView.setText(R.string.bl102_details);
+                            roomName=""+R.string.bl102_details;
+
                         } else if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl103, R.drawable.bl106};
-                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);//how?
+
+//                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);//how?
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+//                            CustomSwipeAdapter.textView.setText("Not found");
                         }
                     } else if (second_layout.wood.equals("Pine")) {
                         if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl104, R.drawable.bl105};
-                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);//how?
+//                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);//how?
                         } else if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl107};
-                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);
+//                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+//                            CustomSwipeAdapter.textView.setText("Not found");
                         }
                     }
                 } else if (first_layout.size.equals("4 * 5")) {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.bl108};
-                            CustomSwipeAdapter.textView.setText(R.string.bl108_details);
+//                            CustomSwipeAdapter.textView.setText(R.string.bl108_details);
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl109, R.drawable.bl110};
-                            CustomSwipeAdapter.textView.setText(R.string.bl109_details);//how?
+//                            CustomSwipeAdapter.textView.setText(R.string.bl109_details);//how?
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+//                            CustomSwipeAdapter.textView.setText("Not found");
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+//                        CustomSwipeAdapter.textView.setText("Not found");
                     }
                 } else if (first_layout.size.equals("5 * 5")) {
-                    CustomSwipeAdapter.textView.setText("Not found");
+//                    CustomSwipeAdapter.textView.setText("Not found");
                 }
             } else if (first_layout.price.equals("20,000 - 40,000")) {
                 if (first_layout.size.equals("3 * 3")) {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl201};
-                            CustomSwipeAdapter.textView.setText(R.string.bl201_details);
+//                            CustomSwipeAdapter.textView.setText(R.string.bl201_details);
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl202, R.drawable.bl203};
-                            CustomSwipeAdapter.textView.setText(R.string.bl202_details);//how?
+//                            CustomSwipeAdapter.textView.setText(R.string.bl202_details);//how?
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+//                            CustomSwipeAdapter.textView.setText("Not found");
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+//                        CustomSwipeAdapter.textView.setText("Not found");
                     }
                 } else if (first_layout.size.equals("3 * 4")) {
                     if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl204, R.drawable.bl205};
-                            CustomSwipeAdapter.textView.setText(R.string.bl204_details);//how?
+//                            CustomSwipeAdapter.textView.setText(R.string.bl204_details);//how?
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl206};
-                            CustomSwipeAdapter.textView.setText(R.string.bl206_details);
+//                            CustomSwipeAdapter.textView.setText(R.string.bl206_details);
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+//                            CustomSwipeAdapter.textView.setText("Not found");
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+//                        CustomSwipeAdapter.textView.setText("Not found");
                     }
                 } else if (first_layout.size.equals("4 * 5")) {
                     if (second_layout.wood.equals("Oak")) {
                         if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl207};
-                            CustomSwipeAdapter.textView.setText(R.string.bl207_details);
+//                            CustomSwipeAdapter.textView.setText(R.string.bl207_details);
                         } else {
                             CustomSwipeAdapter.textView.setText("Not found");
                         }
                     } else if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl208};
-                            CustomSwipeAdapter.textView.setText(R.string.bl208_details);
+//                            CustomSwipeAdapter.textView.setText(R.string.bl208_details);
                         } else {
                             CustomSwipeAdapter.textView.setText("Not found");
                         }
@@ -445,7 +455,7 @@ public class getSelectedFeatures {
         }
     }
 }
-
-
-
-
+//
+//
+//
+//

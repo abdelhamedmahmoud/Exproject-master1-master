@@ -16,27 +16,15 @@ import android.widget.Toast;
 
 public class CustomSwipeAdapter extends PagerAdapter {
 
-//    int [] imageRecources={R.drawable.bl101,R.drawable.bl102,R.drawable.bl103,R.drawable.bl104,
-//                           R.drawable.bl105,R.drawable.bl106,R.drawable.bl107,R.drawable.bl108,
-//                           R.drawable.bl109,R.drawable.bl110,R.drawable.bl201,R.drawable.bl202,
-//                           R.drawable.bl203,R.drawable.bl204,R.drawable.bl205,R.drawable.bl206,
-//                           R.drawable.bl207,R.drawable.bl208,R.drawable.bl209,R.drawable.bl210,
-//                           R.drawable.bl301,R.drawable.bl302,R.drawable.bl303,R.drawable.bl401,
-//                           R.drawable.bl402,R.drawable.bl403};
+
 
     int omgPos = 0;
     Context ctx;
     LayoutInflater layoutInflater;
     static TextView textView;
+    String stringID;
+    Boolean finalState=getSelectedFeatures.NotfoundState;
 
-
-
-
-//    public int chooser() {
-//
-
-//        return piccount;
-//    }
 
 
     public CustomSwipeAdapter (Context ctx){
@@ -60,8 +48,18 @@ public class CustomSwipeAdapter extends PagerAdapter {
         View item_view=layoutInflater.inflate(R.layout.image,container,false);
         ImageView imageView=(ImageView)item_view.findViewById(R.id.image_view);
 
+        textView=(TextView)item_view.findViewById(R.id.roomInformation);
         imageView.setImageResource(second_layout.kemo[position]);
 
+        stringID=getSelectedFeatures.roomName;
+        Toast.makeText(ctx, getSelectedFeatures.NotfoundState+"", Toast.LENGTH_SHORT).show();
+        if(getSelectedFeatures.NotfoundState) {
+            textView.setText("Not Found");
+        }
+        else
+        {
+            textView.setText(ctx.getText(Integer.parseInt(stringID)));
+        }
         int pos= position+1;
 //        textView.setText("image : "+pos);
         container.addView(item_view);
