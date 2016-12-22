@@ -34,8 +34,8 @@ public class second_layout extends AppCompatActivity {
         Toast.makeText(this, desc, Toast.LENGTH_SHORT).show();
 /////////////////////////////////////////// initialize category spinner ////////////////////////////
 
-     if(first_layout.category.equals("Bed Rooms"))
-     {
+        if(first_layout.category.equals("Bed Rooms"))
+        {
          ArrayAdapter<String> adapter = new ArrayAdapter<>(this ,android.R.layout.simple_spinner_item , DescArray);
          final Spinner sp = (Spinner)findViewById(R.id.Description);
          sp.setAdapter(adapter);
@@ -76,7 +76,7 @@ public class second_layout extends AppCompatActivity {
 
              }
          });
-     }
+        }
 
        else if(first_layout.category.equals("Living Rooms"))
         {
@@ -121,8 +121,8 @@ public class second_layout extends AppCompatActivity {
             });
         }
 
-     else if(first_layout.category.equals("Dining Rooms"))
-     {
+        else if(first_layout.category.equals("Dining Rooms"))
+        {
          ArrayAdapter<String> adapter = new ArrayAdapter<>(this ,android.R.layout.simple_spinner_item , DescArrayfordining);
          final Spinner sp = (Spinner)findViewById(R.id.Description);
          sp.setAdapter(adapter);
@@ -162,9 +162,9 @@ public class second_layout extends AppCompatActivity {
 
              }
          });
-     }
-     else if(first_layout.category.equals("Children Rooms"))
-     {
+        }
+        else if(first_layout.category.equals("Children Rooms"))
+        {
          ArrayAdapter<String> adapter = new ArrayAdapter<>(this ,android.R.layout.simple_spinner_item , DescArrayforchildren);
          final Spinner sp = (Spinner)findViewById(R.id.Description);
          sp.setAdapter(adapter);
@@ -204,7 +204,7 @@ public class second_layout extends AppCompatActivity {
 
              }
          });
-     }
+        }
 
 
 //
@@ -303,225 +303,342 @@ public class second_layout extends AppCompatActivity {
 
 
 ///////////////////Rooms arrays ////////////////////////////////////////////////////////////////////
-        if (first_layout.category.equals("Bed Rooms")) {
-            if (first_layout.price.equals("10,000 - 20,000")) {
-                if (first_layout.size.equals("3 * 3")) {
-                    kemo = new int [] {R.drawable.bl101};
-                }else if(first_layout.size.equals("3 * 4")){
-                    kemo = new int [] {R.drawable.bl102,R.drawable.bl103,R.drawable.bl104,R.drawable.bl105,
-                            R.drawable.bl106,R.drawable.bl107};
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    kemo = new int [] {R.drawable.bl108,R.drawable.bl109,R.drawable.bl110};
-
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    CustomSwipeAdapter.textView.setText("Not found");
-                }
-            }
-            else if(first_layout.price.equals("20,000 - 40,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    ////piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("40,000 - 60,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    //piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("more than 60,000")){
-
-            }
-            else if(first_layout.size.equals("4 * 5")){
-
-            }
-            else if(first_layout.size.equals("5 * 5")) {
-
-            }
-        }
-
-        else if (first_layout.category.equals("Living Rooms")) {
-            if (first_layout.price.equals("10,000 - 20,000")) {
-                if (first_layout.size.equals("3 * 3")) {
-                    ////piccount = 1;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("20,000 - 40,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    ////piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("40,000 - 60,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    ////piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("more than 60,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    //piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-        }
-        else if (first_layout.category.equals("Dining Rooms")) {
-            if (first_layout.price.equals("10,000 - 20,000")) {
-                if (first_layout.size.equals("3 * 3")) {
-                    ////piccount = 1;
-
-
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("20,000 - 40,000")){
-                if(first_layout.size.equals("3 * 3")){
-                    ////piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("40,000 - 60,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    //piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("more than 60,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    //piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-        }
-        else if (first_layout.category.equals("Children Rooms")) {
-            if (first_layout.price.equals("10,000 - 20,000")) {
-                if (first_layout.size.equals("3 * 3")) {
-                    ////piccount = 1;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("20,000 - 40,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    ////piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("40,000 - 60,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    ////piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
-            else if(first_layout.price.equals("more than 60,000")){
-                if(first_layout.size.equals(2.5 * 2.5)){
-                    //piccount = 0;
-                }else if(first_layout.size.equals("3 * 4")){
-                    ////piccount = 2;
-                }
-                else if(first_layout.size.equals("4 * 5")){
-                    ////piccount = 3;
-                }
-                else if(first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
-                }
-            }
+//        if (first_layout.category.equals("Bed Rooms")) {
+//            if (first_layout.price.equals("10,000 - 20,000")) {
+//                if (first_layout.size.equals("3 * 3")) {
+//                    if (wood.equals("Mahogany")) {
+//                        if (color.equals("Woody")) {
+//                            kemo = new int[]{R.drawable.bl101};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl101_details);
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not Found");
+//                        }
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not Found");
+//                    }
+//                } else if (first_layout.size.equals("3 * 4")) {
+//                    if (wood.equals("Beech")) {
+//                        if (color.equals("off-white")) {
+//                            kemo = new int[]{R.drawable.bl102};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl102_details);
+//                        } else if (color.equals("Woody")) {
+//                            kemo = new int[]{R.drawable.bl103, R.drawable.bl106};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);//how?
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not found");
+//                        }
+//                    } else if (wood.equals("Pine")) {
+//                        if (color.equals("off-white")) {
+//                            kemo = new int[]{R.drawable.bl104, R.drawable.bl105};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);//how?
+//                        } else if (color.equals("Woody")) {
+//                            kemo = new int[]{R.drawable.bl107};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not found");
+//                        }
+//                    }
+//                } else if (first_layout.size.equals("4 * 5")) {
+//                    if (wood.equals("Mahogany")) {
+//                        if (color.equals("Black")) {
+//                            kemo = new int[]{R.drawable.bl108};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl108_details);
+//                        } else if (color.equals("off-white")) {
+//                            kemo = new int[]{R.drawable.bl109, R.drawable.bl110};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl109_details);//how?
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not found");
+//                        }
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                } else if (first_layout.size.equals("5 * 5")) {
+//                    CustomSwipeAdapter.textView.setText("Not found");
+//                }
+//            } else if (first_layout.price.equals("20,000 - 40,000")) {
+//                if (first_layout.size.equals("3 * 3")) {
+//                    if (wood.equals("Mahogany")) {
+//                        if (color.equals("Woody")) {
+//                            kemo = new int[]{R.drawable.bl201};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl201_details);
+//                        } else if (color.equals("off-white")) {
+//                            kemo = new int[]{R.drawable.bl202, R.drawable.bl203};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl202_details);//how?
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not found");
+//                        }
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                } else if (first_layout.size.equals("3 * 4")) {
+//                    if (wood.equals("Beech")) {
+//                        if (color.equals("Woody")) {
+//                            kemo = new int[]{R.drawable.bl204, R.drawable.bl205};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl204_details);//how?
+//                        } else if (color.equals("off-white")) {
+//                            kemo = new int[]{R.drawable.bl206};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl206_details);
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not found");
+//                        }
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                } else if (first_layout.size.equals("4 * 5")) {
+//                    if (wood.equals("Oak")) {
+//                        if (color.equals("off-white")) {
+//                            kemo = new int[]{R.drawable.bl207};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl207_details);
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not found");
+//                        }
+//                    } else if (wood.equals("Beech")) {
+//                        if (color.equals("Woody")) {
+//                            kemo = new int[]{R.drawable.bl208};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl208_details);
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not found");
+//                        }
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                } else if (first_layout.size.equals("5 * 5")) {
+//                    if (wood.equals("Oak")) {
+//                        if (color.equals("Woody")) {
+//                            kemo = new int[]{R.drawable.bl209};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl209_details);
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not found");
+//                        }
+//                    } else if (wood.equals("Cedar")) {
+//                        if (color.equals("Woody")) {
+//                            kemo = new int[]{R.drawable.bl210};
+//                            CustomSwipeAdapter.textView.setText(R.string.bl210_details);
+//                        } else {
+//                            CustomSwipeAdapter.textView.setText("Not found");
+//                        }
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                }
+//            } else if (first_layout.price.equals("40,000 - 60,000")) {
+//                if (first_layout.size.equals("3 * 3")) {
+//                    CustomSwipeAdapter.textView.setText("Not found");
+//                } else if (first_layout.size.equals("3 * 4")) {
+//                    if (wood.equals("Oak") && color.equals("off-white")) {
+//                        kemo = new int[]{R.drawable.bl301};
+//                        CustomSwipeAdapter.textView.setText(R.string.bl301_details);
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                } else if (first_layout.size.equals("4 * 5")) {
+//                    if (wood.equals("Oak") && color.equals("Woody")) {
+//                        kemo = new int[]{R.drawable.bl302};
+//                        CustomSwipeAdapter.textView.setText(R.string.bl302_details);
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                } else if (first_layout.size.equals("5 * 5")) {
+//                    if (wood.equals("Cedar") && color.equals("Woody")) {
+//                        kemo = new int[]{R.drawable.bl303};
+//                        CustomSwipeAdapter.textView.setText(R.string.bl303_details);
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                }
+//            } else if (first_layout.price.equals("more than 60,000")) {
+//
+//                if (first_layout.size.equals("4 * 5")) {
+//                    if (wood.equals("Cedar") && color.equals("Woody")) {
+//                        kemo = new int[]{R.drawable.bl401};
+//                        CustomSwipeAdapter.textView.setText(R.string.bl401_details);
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                } else if (first_layout.size.equals("5 * 5")) {
+//                    if (wood.equals("Oak") && color.equals("Woody")) {
+//                        kemo = new int[]{R.drawable.bl402};
+//                        CustomSwipeAdapter.textView.setText(R.string.bl402_details);
+//                    } else if (wood.equals("Cedar") && color.equals("Black")) {
+//                        kemo = new int[]{R.drawable.bl403};
+//                        CustomSwipeAdapter.textView.setText(R.string.bl403_details);
+//                    } else {
+//                        CustomSwipeAdapter.textView.setText("Not found");
+//                    }
+//                } else {
+//                    CustomSwipeAdapter.textView.setText("Not found");
+//                }
+//            }
+//        }
+//        else if (first_layout.category.equals("Living Rooms")) {
+//            if (first_layout.price.equals("10,000 - 20,000")) {
+//                if (first_layout.size.equals("3 * 3")) {
+//                    ////piccount = 1;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//            else if(first_layout.price.equals("20,000 - 40,000")){
+//                if(first_layout.size.equals(2.5 * 2.5)){
+//                    ////piccount = 0;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//            else if(first_layout.price.equals("40,000 - 60,000")){
+//                if(first_layout.size.equals(2.5 * 2.5)){
+//                    ////piccount = 0;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//            else if(first_layout.price.equals("more than 60,000")){
+//                if(first_layout.size.equals(2.5 * 2.5)){
+//                    //piccount = 0;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//        }
+//        else if (first_layout.category.equals("Dining Rooms")) {
+//            if (first_layout.price.equals("10,000 - 20,000")) {
+//                if (first_layout.size.equals("3 * 3")) {
+//                    ////piccount = 1;
+//
+//
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//            else if(first_layout.price.equals("20,000 - 40,000")){
+//                if(first_layout.size.equals("3 * 3")){
+//                    ////piccount = 0;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//            else if(first_layout.price.equals("40,000 - 60,000")){
+//                if(first_layout.size.equals(2.5 * 2.5)){
+//                    //piccount = 0;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//            else if(first_layout.price.equals("more than 60,000")){
+//                if(first_layout.size.equals(2.5 * 2.5)){
+//                    //piccount = 0;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//        }
+//        else if (first_layout.category.equals("Children Rooms")) {
+//            if (first_layout.price.equals("10,000 - 20,000")) {
+//                if (first_layout.size.equals("3 * 3")) {
+//                    ////piccount = 1;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//            else if(first_layout.price.equals("20,000 - 40,000")){
+//                if(first_layout.size.equals(2.5 * 2.5)){
+//                    ////piccount = 0;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//            else if(first_layout.price.equals("40,000 - 60,000")){
+//                if(first_layout.size.equals(2.5 * 2.5)){
+//                    ////piccount = 0;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//            else if(first_layout.price.equals("more than 60,000")){
+//                if(first_layout.size.equals(2.5 * 2.5)){
+//                    //piccount = 0;
+//                }else if(first_layout.size.equals("3 * 4")){
+//                    ////piccount = 2;
+//                }
+//                else if(first_layout.size.equals("4 * 5")){
+//                    ////piccount = 3;
+//                }
+//                else if(first_layout.size.equals("5 * 5")) {
+//                    ////piccount = 0;
+//                }
+//            }
+//        }
+//        if(first_layout.category.equals("Bed Rooms")&& wood.equals("3 * 3")&& first_layout.price.equals("10,000 - 20,000")){
+//            kemo = new int[]{R.drawable.bl201};
         }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 }
-}
+

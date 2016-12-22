@@ -23,22 +23,47 @@
     <string name="bl301_details">Victoria bedroom bed 160 Cm + 2 nightstand + chest of drawer with mirror EGP 49,600</string>
     <string name="bl302_details">KA06T8-03T1A-01T1H BED 150 CM+2 NIGHT STAND +DRESSER+MIRROR+6D WARDROBE EGP 52,997.50</string>
     <string name="bl303_details">ESCUDA Bedroom set Bed 180Cm + 2 Nightstand +Dresser With Mirror EGP 54,700</string>
-    <string name="bl304_details"></string>
-    <string name="bl305_details"></string>
-    <string name="bl306_details"></string>
-    <string name="bl307_details"></string>
-    <string name="bl308_details"></string>
-    <string name="bl309_details"></string>
-    <string name="bl310_details"></string>
     <string name="bl401_details">Motto bedroom 180 cm bed 180 cm + 2 nightstand + dresser EGP 63,200 </string>
     <string name="bl402_details">B693-76W1-78W1-96W1-31-36-90 Bed + Dresser With Mirror + 2 Night Stand EGP 67,770</string>
     <string name="bl403_details">B671-76W1-78W1-99W1 Kind bed + 2 Night stand + Dresser With Mirror EGP 70,515</string>
-    <string name="bl404_details"></string>
-    <string name="bl405_details"></string>
-    <string name="b2406_details"></string>
-    <string name="bl407_details"></string>
-    <string name="bl408_details"></string>
-    <string name="bl409_details"></string>
-    <string name="bl410_details"></string>
+    <string name="ll101_details">U82205 Sofa Set  Cover  EGP 10,000</string>
+    <string name="ll102_details">2237B Sofa Set EGP 10,880</string>
+    <string name="ll103_details">U90200 Sofa Set Sofa + 2 Chair EGP 14,200</string>
+    <string name="ll104_details">75004-18 Sofa Chaise EGP 14,240</string>
+    <string name="ll105_details">3-seat sofa, Orrsta light grey, Funnarp black/beige EGP 14,500</string>
+    <string name="ll106_details">1C-15106A-CAL CORNER SOFA SET- 3 SEATER+COUCH-EGP 15,440</string>
+    <string name="ll107_details">7500036 Full Sofa Sleeper228m W x 99m D x 101m H EGP 16,240</string>
+    <string name="ll108_details">4-seat sofa, Murum black EGP 18,230</string>
+    <string name="ll109_details">2322-2399A EGP 18,720.00</string>
+    <string name="ll110_details">1C-15100B-CAL CORNER SOFA SET- 3 SEATER+COUCH+STOOL EGP 18,800 </string>
+    <string name="ll201_details">14201-66-17 L Shape EGP 25,760</string>
+    <string name="ll202_details">Mina Plus Corner L Shape with sofa bed EGP 26,400</string>
+    <string name="ll203_details">75004 Sofa + LoveSeat + Chair 116m W x 99m D x 101m H EGP 29,120</string>
+    <string name="ll204_details">U73701 Recliner Sofa + Recliner Loveseat + Recliner Chair EGP 30,520</string>
+    <string name="ll205_details">14201-38-35-23 Sofa + Loveseat + Chair EGP 32,240</string>
+    <string name="ll206_details">U75400-16-34-49 LAF CORNER CHAISE+ARMLESS LOVESEAT+RAF SOFA EGP 34,120</string>
+    <string name="ll207_details">Mina Plus Sofa Set Sofa Bed + Loveseat + Chair EGP 36,400</string>
+    <string name="ll208_details">516N0  Sofa + Loveseat + Chair EGP 38,840</string>
+    <string name="ll209_details">13000 Chair + Loveseat + Sofa EGP 39,360</string>
+    <string name="ll210_details">35500  Sofa Chaise + Loveseat  + Chair EGP 39,640</string>
+    <string name="ll301_details">47700 Sofa + Loveseat + Accent Chair EGP 41,240</string>
+    <string name="ll302_details">U80000 Sofa SetSofa
+226 W x 96 D x 99 HLoveseat
+177 W x 96 D x 99 HChair
+104 W x 101 D x 96 H EGP 41,640</string>
+    <string name="ll303_details">72104-46-55-67 Sofa Chaise + Loveseat  + Chair EGP 41,760</string>
+    <string name="ll304_details">27801  LAF RECLINING LOVESEAT + RAF Reclining Loveseat + ROCKER RECLINER EGP 42,360</string>
+    <string name="ll305_details">92003 Sofa + Loveseat + Chair RECLINING EGP 43,240</string>
+    <string name="ll306_details">31901 Sofa + Loveseat + Recliner Chair EGP 46,040</string>
+    <string name="ll307_details">U95100 Sofa + Loveseat + chair EGP 48,080</string>
+    <string name="ll308_details">27901 Sofa + Loveseat + Chair EGP 50,480</string>
+    <string name="ll309_details">24302-17-55-46-34-77  RAF CORNER CHAISE  EGP 52,960</string>
+    <string name="ll310_details">92002 Reclining Sofa + Reclining loveseat + Rocker Recliner EGP 54,050</string>
+    <string name="ll401_details">84303 Sofa + Loveseat + Chair EGP 64,920</string>
+    <string name="ll402_details">Lincoln Corner EGP 86,600</string>
+    <string name="ll403_details">22603 SOFA SET Sofa + Loveseat + Chaise EGP 87,000</string>
+    <string name="ll404_details">Motto sofa set sofa + lovseat + recliner EGP 104,960</string>
+    
+    
 
 </resources>
