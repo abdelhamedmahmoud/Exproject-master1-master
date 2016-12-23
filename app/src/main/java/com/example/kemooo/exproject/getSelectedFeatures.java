@@ -439,87 +439,465 @@ public class getSelectedFeatures {
         } else if (first_layout.category.equals("Dining Rooms")) {
             if (first_layout.price.equals("10,000 - 20,000")) {
                 if (first_layout.size.equals("3 * 3")) {
-                    ////piccount = 1;
+                    if(second_layout.wood.equals("Pine")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.dl101};
+                            roomName=""+R.string.dl101_details;
+                        }else if(second_layout.color.equals("Black")){
+                            second_layout.kemo = new int[]{R.drawable.dl102};
+                            roomName=""+R.string.dl102_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
+                        }
+
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
+                    }
 
 
                 } else if (first_layout.size.equals("3 * 4")) {
-                    ////piccount = 2;
+                    if(second_layout.wood.equals("Mahogany")){
+                        if(second_layout.color.equals("Woody")) {
+                            second_layout.kemo = new int[]{R.drawable.dl103};
+                            roomName = "" + R.string.dl103_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
+                        }
+                    }else if(second_layout.wood.equals("Pine")){
+                        if(second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.dl104,R.drawable.dl105,R.drawable.dl106};
+                            roomName = "" + R.string.dl104_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
+                    }
                 } else if (first_layout.size.equals("4 * 5")) {
-                    ////piccount = 3;
+                    if(second_layout.wood.equals("Pine")){
+                        if(second_layout.color.equals("Black")){
+                            second_layout.kemo = new int[]{R.drawable.dl107};
+                            roomName = "" + R.string.dl107_details;
+                        }else if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.dl108};
+                            roomName = "" + R.string.dl108_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
+                    }
+
                 } else if (first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
+                    if(second_layout.wood.equals("Mahogany") && second_layout.color.equals("Woody")){
+                        second_layout.kemo = new int[]{R.drawable.dl109,R.drawable.dl110};
+                        roomName = "" + R.string.dl109_details;
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
+                    }
+
                 }
             } else if (first_layout.price.equals("20,000 - 40,000")) {
                 if (first_layout.size.equals("3 * 3")) {
-                    ////piccount = 0;
+                    if(second_layout.wood.equals("Beech") && second_layout.color.equals("off-white")){
+                        second_layout.kemo = new int[]{R.drawable.dl201,R.drawable.dl201,R.drawable.dl202};
+                        roomName = "" + R.string.dl201_details;
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
+                    }
+
                 } else if (first_layout.size.equals("3 * 4")) {
-                    ////piccount = 2;
+                    if(second_layout.wood.equals("Beech")){
+                        if(second_layout.color.equals("Woody")) {
+                            second_layout.kemo = new int[]{R.drawable.dl203,R.drawable.dl205};
+                            roomName = "" + R.string.dl203_details;
+                        }else if(second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.dl204};
+                            roomName = "" + R.string.dl204_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
+                    }
                 } else if (first_layout.size.equals("4 * 5")) {
-                    ////piccount = 3;
+                    if(second_layout.wood.equals("Beech")) {
+                        if (second_layout.color.equals("Woody")) {
+                            second_layout.kemo = new int[]{R.drawable.dl206, R.drawable.dl207};
+                            roomName = "" + R.string.dl206_details;
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
+                    if(second_layout.wood.equals("Beech")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.dl208};
+                            roomName = "" + R.string.dl206_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else if(second_layout.wood.equals("Beech")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.dl209,R.drawable.dl210};
+                            roomName = "" + R.string.dl209_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 }
             } else if (first_layout.price.equals("40,000 - 60,000")) {
-                if (first_layout.size.equals(2.5 * 2.5)) {
-                    //piccount = 0;
+                if (first_layout.size.equals("3 * 3")) {
+                    if(second_layout.wood.equals("Cedar")){
+                        if(second_layout.color.equals("Black")){
+                            second_layout.kemo = new int[]{R.drawable.dl301};
+                            roomName = "" + R.string.dl301_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else if(second_layout.wood.equals("Oak")){
+                        if(second_layout.color.equals("Woody")){
+                            second_layout.kemo = new int[]{R.drawable.dl302};
+                            roomName = "" + R.string.dl302_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("3 * 4")) {
-                    ////piccount = 2;
+                    if(second_layout.wood.equals("Oak")){
+                        if(second_layout.color.equals("Gray")){
+                            second_layout.kemo = new int[]{R.drawable.dl303};
+                            roomName = "" + R.string.dl303_details;
+                        }else if(second_layout.color.equals("Woody")){
+                            second_layout.kemo = new int[]{R.drawable.dl304,R.drawable.dl305,R.drawable.dl306,R.drawable.dl307};
+                            roomName = "" + R.string.dl304_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("4 * 5")) {
-                    ////piccount = 3;
+                    if(second_layout.wood.equals("Oak")&& second_layout.color.equals("off-white")){
+                        second_layout.kemo = new int[]{R.drawable.dl308,R.drawable.dl309};
+                        roomName = "" + R.string.dl308_details;
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
+                    if(second_layout.wood.equals("Oak")&& second_layout.color.equals("Woody")){
+                        second_layout.kemo = new int[]{R.drawable.dl310};
+                        roomName = "" + R.string.dl310_details;
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 }
             } else if (first_layout.price.equals("more than 60,000")) {
-                if (first_layout.size.equals(2.5 * 2.5)) {
-                    //piccount = 0;
+                if (first_layout.size.equals("3 * 3")) {
+                    second_layout.kemo = new int[]{R.drawable.white};
+                    NotfoundState = true;
                 } else if (first_layout.size.equals("3 * 4")) {
-                    ////piccount = 2;
+                    if(second_layout.wood.equals("Cedar")){
+                        if(second_layout.color.equals("Woody")){
+                            second_layout.kemo = new int[]{R.drawable.dl401,R.drawable.dl402,R.drawable.dl403};
+                            roomName = "" + R.string.dl403_details;
+                        }else if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.dl405,R.drawable.dl404};
+                            roomName = "" + R.string.dl405_details;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("4 * 5")) {
-                    ////piccount = 3;
+                    if(second_layout.wood.equals("Cedar")&& second_layout.color.equals("Woody")){
+                        second_layout.kemo = new int[]{R.drawable.dl406,R.drawable.dl407,R.drawable.dl408};
+                        roomName = "" + R.string.dl406_details;
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
+                    if(second_layout.wood.equals("Cedar")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.dl409};
+                            roomName = "" + R.string.dl409_details;
+                        }else if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.dl410};
+                            roomName = "" + R.string.dl410_details;
+
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 }
             }
         } else if (first_layout.category.equals("Children Rooms")) {
             if (first_layout.price.equals("10,000 - 20,000")) {
                 if (first_layout.size.equals("3 * 3")) {
-                    ////piccount = 1;
+                    if(second_layout.wood.equals("Pine")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl101,R.drawable.cl102};
+                            roomName = "" + R.string.cl101_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("3 * 4")) {
-                    ////piccount = 2;
+                    if(second_layout.wood.equals("Mahogany")){
+                        if(second_layout.color.equals("Black")){
+                            second_layout.kemo = new int[]{R.drawable.cl103};
+                            roomName = "" + R.string.cl103_details;
+                        }else if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl104};
+                            roomName = "" + R.string.cl104_details;
+
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("4 * 5")) {
-                    ////piccount = 3;
+                    if(second_layout.wood.equals("Pine") && second_layout.color.equals("Woody")){
+                        second_layout.kemo = new int[]{R.drawable.cl105,R.drawable.cl106};
+                        roomName = "" + R.string.cl105_details;
+                    }else if(second_layout.wood.equals("Mahogany") && second_layout.color.equals("off-white")){
+                        second_layout.kemo = new int[]{R.drawable.cl107,R.drawable.cl108,R.drawable.cl109};
+                        roomName = "" + R.string.cl107_details;
+                    }
+                    else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
+                    if(second_layout.wood.equals("Pine") && second_layout.color.equals("off-white")){
+                        second_layout.kemo = new int[]{R.drawable.cl110};
+                        roomName = "" + R.string.cl110_details;
+                    }
+                    else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 }
             } else if (first_layout.price.equals("20,000 - 40,000")) {
-                if (first_layout.size.equals(2.5 * 2.5)) {
-                    ////piccount = 0;
+                if (first_layout.size.equals("3 * 3")) {
+                    if(second_layout.wood.equals("Beech")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl201,R.drawable.cl202,R.drawable.cl203};
+                            roomName = "" + R.string.cl201_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("3 * 4")) {
-                    ////piccount = 2;
+                    if(second_layout.wood.equals("Mahogany")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl204};
+                            roomName = "" + R.string.cl204_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else if(second_layout.wood.equals("Beech")){
+                        if(second_layout.color.equals("Woody")){
+                            second_layout.kemo = new int[]{R.drawable.cl205};
+                            roomName = "" + R.string.cl205_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("4 * 5")) {
-                    ////piccount = 3;
+                    if(second_layout.wood.equals("Mahogany") && second_layout.color.equals("Woody")){
+                        second_layout.kemo = new int[]{R.drawable.cl206,R.drawable.cl207,R.drawable.cl208};
+                        roomName = "" + R.string.cl206_details;
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
+                    if(second_layout.wood.equals("Beech")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl209};
+                            roomName = "" + R.string.cl209_details;
+                        }else if(second_layout.color.equals("Woody")){
+                            second_layout.kemo = new int[]{R.drawable.cl210};
+                            roomName = "" + R.string.cl210_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 }
             } else if (first_layout.price.equals("40,000 - 60,000")) {
-                if (first_layout.size.equals(2.5 * 2.5)) {
-                    ////piccount = 0;
+                if (first_layout.size.equals("3 * 3")) {
+                    if(second_layout.wood.equals("Oak")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl301};
+                            roomName = "" + R.string.cl301_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else if(second_layout.wood.equals("Cedar")){
+                        if(second_layout.color.equals("Woody")){
+                            second_layout.kemo = new int[]{R.drawable.cl302};
+                            roomName = "" + R.string.cl302_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("3 * 4")) {
-                    ////piccount = 2;
+                    if(second_layout.wood.equals("Oak")&& second_layout.color.equals("Woody")){
+                        second_layout.kemo = new int[]{R.drawable.cl303,R.drawable.cl304,R.drawable.cl305};
+                        roomName = "" + R.string.cl303_details;
+                    }
                 } else if (first_layout.size.equals("4 * 5")) {
-                    ////piccount = 3;
+                    if(second_layout.wood.equals("Mahogany")){
+                        if(second_layout.color.equals("Black")){
+                            second_layout.kemo = new int[]{R.drawable.cl306};
+                            roomName = "" + R.string.cl306_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else if(second_layout.wood.equals("Cedar")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl307};
+                            roomName = "" + R.string.cl307_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
+                    if(second_layout.wood.equals("Oak")){
+                        if(second_layout.color.equals("Woody")){
+                            second_layout.kemo = new int[]{R.drawable.cl308,R.drawable.cl309};
+                            roomName = "" + R.string.cl308_details;
+
+                        }else if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl310};
+                            roomName = "" + R.string.cl310_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 }
             } else if (first_layout.price.equals("more than 60,000")) {
-                if (first_layout.size.equals(2.5 * 2.5)) {
-                    //piccount = 0;
+                if (first_layout.size.equals("3 * 3")) {
+                    if(second_layout.wood.equals("Cedar") && second_layout.color.equals("Woody")){
+                        second_layout.kemo = new int[]{R.drawable.cl401,R.drawable.cl402};
+                        roomName = "" + R.string.cl401_details;
+                    }else if(second_layout.wood.equals("Cedar") && second_layout.color.equals("off-white")){
+                        second_layout.kemo = new int[]{R.drawable.cl403};
+                        roomName = "" + R.string.cl403_details;
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("3 * 4")) {
-                    ////piccount = 2;
+                    if(second_layout.wood.equals("Cedar")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl404,R.drawable.cl407};
+                            roomName = "" + R.string.cl404_details;
+                        }else if(second_layout.color.equals("Woody")){
+                            second_layout.kemo = new int[]{R.drawable.cl405,R.drawable.cl406};
+                            roomName = "" + R.string.cl404_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("4 * 5")) {
-                    ////piccount = 3;
+                    if(second_layout.wood.equals("Cedar")){
+                        if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.cl409};
+                            roomName = "" + R.string.cl409_details;
+                        }else if(second_layout.color.equals("Woody")){
+                            second_layout.kemo = new int[]{R.drawable.cl408};
+                            roomName = "" + R.string.cl408_details;
+                        }else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 } else if (first_layout.size.equals("5 * 5")) {
-                    ////piccount = 0;
+                    if(second_layout.wood.equals("Cedar")&& second_layout.color.equals("off-white")){
+                        second_layout.kemo = new int[]{R.drawable.cl410};
+                        roomName = "" + R.string.cl410_details;
+                    }else {
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState = true;
+                    }
                 }
             }
         }
