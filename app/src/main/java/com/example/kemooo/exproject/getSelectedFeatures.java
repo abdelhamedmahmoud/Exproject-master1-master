@@ -8,7 +8,7 @@ package com.example.kemooo.exproject;
 public class getSelectedFeatures {
 
     static String roomName;
-   static Boolean NotfoundState=false;
+    static Boolean NotfoundState=false;
 
 
     public static void getFeatures() {
@@ -35,103 +35,119 @@ public class getSelectedFeatures {
 
                         } else if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl103, R.drawable.bl106};
-
-//                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);//how?
+                            roomName=""+R.string.bl103_details;
                         } else {
-//                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else if (second_layout.wood.equals("Pine")) {
                         if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl104, R.drawable.bl105};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);//how?
+                            roomName=""+R.string.bl103_details;
                         } else if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl107};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl103_details);
+                            roomName=""+R.string.bl103_details;
                         } else {
-//                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     }
                 } else if (first_layout.size.equals("4 * 5")) {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.bl108};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl108_details);
+                            roomName=""+R.string.bl108_details;
+
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl109, R.drawable.bl110};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl109_details);//how?
+                            roomName=""+R.string.bl109_details;
                         } else {
-//                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-//                        CustomSwipeAdapter.textView.setText("Not found");
-                    }
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;                    }
                 } else if (first_layout.size.equals("5 * 5")) {
-//                    CustomSwipeAdapter.textView.setText("Not found");
+                    second_layout.kemo = new int[]{R.drawable.white};
+                    NotfoundState=true;
                 }
             } else if (first_layout.price.equals("20,000 - 40,000")) {
                 if (first_layout.size.equals("3 * 3")) {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl201};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl201_details);
+                            roomName=""+R.string.bl201_details;
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl202, R.drawable.bl203};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl202_details);//how?
+                            roomName=""+R.string.bl202_details;
                         } else {
-//                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-//                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("3 * 4")) {
                     if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl204, R.drawable.bl205};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl204_details);//how?
+                            roomName=""+R.string.bl204_details;
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl206};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl206_details);
+                            roomName=""+R.string.bl206_details;
                         } else {
-//                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-//                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("4 * 5")) {
                     if (second_layout.wood.equals("Oak")) {
                         if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl207};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl207_details);
+                            roomName=""+R.string.bl207_details;
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl208};
-//                            CustomSwipeAdapter.textView.setText(R.string.bl208_details);
+                            roomName=""+R.string.bl208_details;
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("5 * 5")) {
                     if (second_layout.wood.equals("Oak")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl209};
-                            CustomSwipeAdapter.textView.setText(R.string.bl209_details);
+                            roomName=""+R.string.bl209_details;
+
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else if (second_layout.wood.equals("Cedar")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl210};
-                            CustomSwipeAdapter.textView.setText(R.string.bl210_details);
+                            roomName=""+R.string.bl210_details;
+
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 }
             } else if (first_layout.price.equals("40,000 - 60,000")) {
@@ -140,23 +156,29 @@ public class getSelectedFeatures {
                 } else if (first_layout.size.equals("3 * 4")) {
                     if (second_layout.wood.equals("Oak") && second_layout.color.equals("off-white")) {
                         second_layout.kemo = new int[]{R.drawable.bl301};
-                        CustomSwipeAdapter.textView.setText(R.string.bl301_details);
+                        roomName=""+R.string.bl301_details;
+
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("4 * 5")) {
                     if (second_layout.wood.equals("Oak") && second_layout.color.equals("Woody")) {
                         second_layout.kemo = new int[]{R.drawable.bl302};
+                        roomName=""+R.string.bl302_details;
                         CustomSwipeAdapter.textView.setText(R.string.bl302_details);
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("5 * 5")) {
                     if (second_layout.wood.equals("Cedar") && second_layout.color.equals("Woody")) {
                         second_layout.kemo = new int[]{R.drawable.bl303};
+                        roomName=""+R.string.bl303_details;
                         CustomSwipeAdapter.textView.setText(R.string.bl303_details);
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 }
             } else if (first_layout.price.equals("more than 60,000")) {
@@ -164,22 +186,28 @@ public class getSelectedFeatures {
                 if (first_layout.size.equals("4 * 5")) {
                     if (second_layout.wood.equals("Cedar") && second_layout.color.equals("Woody")) {
                         second_layout.kemo = new int[]{R.drawable.bl401};
-                        CustomSwipeAdapter.textView.setText(R.string.bl401_details);
+                        roomName=""+R.string.bl401_details;
+
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("5 * 5")) {
                     if (second_layout.wood.equals("Oak") && second_layout.color.equals("Woody")) {
                         second_layout.kemo = new int[]{R.drawable.bl402};
-                        CustomSwipeAdapter.textView.setText(R.string.bl402_details);
+                        roomName=""+R.string.bl402_details;
+
                     } else if (second_layout.wood.equals("Cedar") && second_layout.color.equals("Black")) {
                         second_layout.kemo = new int[]{R.drawable.bl403};
-                        CustomSwipeAdapter.textView.setText(R.string.bl403_details);
+                        roomName=""+R.string.bl403_details;
+
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else {
-                    CustomSwipeAdapter.textView.setText("Not found");
+                    second_layout.kemo = new int[]{R.drawable.white};
+                    NotfoundState=true;
                 }
             }
         } else if (first_layout.category.equals("Living Rooms")) {
@@ -188,27 +216,34 @@ public class getSelectedFeatures {
                     if (second_layout.wood.equals("Pine")) {
                         if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.ll101};
-                            CustomSwipeAdapter.textView.setText(R.string.ll101_details);
+                            roomName=""+R.string.ll101_details;
+
                         } else if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.ll102};
-                            CustomSwipeAdapter.textView.setText(R.string.ll102_details);
+                            roomName=""+R.string.ll102_details;
+
                         } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.ll103};
-                            CustomSwipeAdapter.textView.setText(R.string.ll103_details);
+                            roomName=""+R.string.ll103_details;
+
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     }
                 } else if (first_layout.size.equals("3 * 4")) {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.ll104};
-                            CustomSwipeAdapter.textView.setText(R.string.ll104_details);
+                            roomName=""+R.string.ll104_details;
+
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.ll105};
-                            CustomSwipeAdapter.textView.setText(R.string.ll105_details);
+                            roomName=""+R.string.ll105_details;
+
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     }
 
@@ -216,33 +251,41 @@ public class getSelectedFeatures {
                     if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.ll107};
-                            CustomSwipeAdapter.textView.setText(R.string.ll107_details);
+                            roomName=""+R.string.ll107_details;
+
                         } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.ll108};
-                            CustomSwipeAdapter.textView.setText(R.string.ll108_details);
+                            roomName=""+R.string.ll108_details;
+
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("5 * 5")) {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.ll106, R.drawable.ll109};
-                            CustomSwipeAdapter.textView.setText(R.string.ll106_details);//how??
+                            roomName=""+R.string.ll106_details;
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.ll110};
-                            CustomSwipeAdapter.textView.setText(R.string.ll110_details);
+                            roomName=""+R.string.ll110_details;
+
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 }
             } else if (first_layout.price.equals("20,000 - 40,000")) {
@@ -250,119 +293,146 @@ public class getSelectedFeatures {
                     if (second_layout.wood.equals("Oak")) {
                         if (second_layout.color.equals("Woody") || second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-                            CustomSwipeAdapter.textView.setText(R.string.ll201_details);//how?
+                            roomName=""+R.string.ll201_details;
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     }
                 } else if (first_layout.size.equals("3 * 4")) {
                     if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.ll203, R.drawable.ll204, R.drawable.ll205};
-                            CustomSwipeAdapter.textView.setText(R.string.ll203_details);//how?
+                            roomName=""+R.string.ll203_details;
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("4 * 5")) {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.ll206};
-                            CustomSwipeAdapter.textView.setText(R.string.ll206_details);
+                            roomName=""+R.string.ll206_details;
+
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.ll207};
-                            CustomSwipeAdapter.textView.setText(R.string.ll207_details);
+                            roomName=""+R.string.ll207_details;
+
                         } else if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.ll208};
-                            CustomSwipeAdapter.textView.setText(R.string.ll208_details);
+                            roomName=""+R.string.ll208_details;
+
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("5 * 5")) {
                     if (second_layout.color.equals("off-white")) {
                         if (second_layout.wood.equals("Oak")) {
                             second_layout.kemo = new int[]{R.drawable.ll209};
-                            CustomSwipeAdapter.textView.setText(R.string.ll209_details);
+                            roomName=""+R.string.ll209_details;
+
                         } else if (second_layout.wood.equals("Cedar")) {
                             second_layout.kemo = new int[]{R.drawable.ll210};
-                            CustomSwipeAdapter.textView.setText(R.string.ll210_details);
+                            roomName=""+R.string.ll210_details;
+
                         } else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 }
             } else if (first_layout.price.equals("40,000 - 60,000")) {
                 if (first_layout.size.equals("3 * 3")) {
                     if(second_layout.wood.equals("Cedar") && second_layout.color.equals("off-white")){
                         second_layout.kemo = new int[]{R.drawable.ll301,R.drawable.ll308};
-                        CustomSwipeAdapter.textView.setText(R.string.ll301_details);//how?
+                        roomName=""+R.string.ll301_details;
                     }else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("3 * 4")) {
                     if(second_layout.wood.equals("Oak")){
                         if(second_layout.color.equals("Black")){
                             second_layout.kemo = new int[]{R.drawable.ll302};
-                            CustomSwipeAdapter.textView.setText(R.string.ll302_details);
+                            roomName=""+R.string.ll302_details;
+
                         }else if(second_layout.color.equals("off-white")){
                             second_layout.kemo = new int[]{R.drawable.ll303};
-                            CustomSwipeAdapter.textView.setText(R.string.ll303_details);
+                            roomName=""+R.string.ll303_details;
+
                         }else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     }
                 } else if (first_layout.size.equals("4 * 5")) {
                     if(second_layout.wood.equals("Oak")&& second_layout.color.equals("Woody")){
                         second_layout.kemo = new int[]{R.drawable.ll305,R.drawable.ll306,R.drawable.ll307};
-                        CustomSwipeAdapter.textView.setText(R.string.ll303_details);//how?
+                        roomName=""+R.string.ll303_details;
                     }else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("5 * 5")) {
                     if(second_layout.wood.equals("Mahogany")){
                         if(second_layout.color.equals("Black")){
                             second_layout.kemo = new int[]{R.drawable.ll304};
-                            CustomSwipeAdapter.textView.setText(R.string.ll304_details);
+                            roomName=""+R.string.ll304_details;
+
                         }else {
-                            CustomSwipeAdapter.textView.setText("Not found");
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     }else if(second_layout.wood.equals("Cedar" )&& second_layout.color.equals("off-white")){
                         second_layout.kemo = new int[]{R.drawable.ll309};
-                        CustomSwipeAdapter.textView.setText(R.string.ll309_details);
+                        roomName=""+R.string.ll309_details;
+
                     }else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 }
             } else if (first_layout.price.equals("more than 60,000")) {
                 if (first_layout.size.equals("3 * 3")) {
-                    CustomSwipeAdapter.textView.setText("Not found");
+                    second_layout.kemo = new int[]{R.drawable.white};
+                    NotfoundState=true;
                 } else if (first_layout.size.equals("3 * 4")) {
                     if(second_layout.wood.equals("Cedar" )&& second_layout.color.equals("Woody")){
                         second_layout.kemo = new int[]{R.drawable.ll401};
-                        CustomSwipeAdapter.textView.setText(R.string.ll401_details);
+                        roomName=""+R.string.ll401_details;
+
                     }else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("4 * 5")) {
                     if(second_layout.wood.equals("Cedar" )&& second_layout.color.equals("Woody")){
                         second_layout.kemo = new int[]{R.drawable.ll402};
-                        CustomSwipeAdapter.textView.setText(R.string.ll402_details);
+                        roomName=""+R.string.ll402_details;
+
                     }else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 } else if (first_layout.size.equals("5 * 5")) {
                     if(second_layout.wood.equals("Cedar" )&& second_layout.color.equals("Woody")){
                         second_layout.kemo = new int[]{R.drawable.ll403,R.drawable.bl401};
-                        CustomSwipeAdapter.textView.setText(R.string.ll403_details);//how?
+                        roomName=""+R.string.ll403_details;
                     }else {
-                        CustomSwipeAdapter.textView.setText("Not found");
+                        second_layout.kemo = new int[]{R.drawable.white};
+                        NotfoundState=true;
                     }
                 }
             }

@@ -11,10 +11,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:text="SO04 Bedroom Set  Hidden Bed + Bookcase+ Nightstand + 2 Door Wardrobe + Chest EGP 18,445.00"
         android:textStyle="bold|italic"
-        android:textSize="14sp"
+        android:fontFamily="casual"
         android:textColor="@color/colorPrimary"
-        android:layout_height="60dp" />
+        android:textSize="18sp"
+        android:layout_height="78dp" />
 
     <ImageView
         android:layout_width="match_parent"

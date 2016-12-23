@@ -23,7 +23,7 @@ public class CustomSwipeAdapter extends PagerAdapter {
     LayoutInflater layoutInflater;
     static TextView textView;
     String stringID;
-    Boolean finalState=getSelectedFeatures.NotfoundState;
+
 
 
 
@@ -52,16 +52,17 @@ public class CustomSwipeAdapter extends PagerAdapter {
         imageView.setImageResource(second_layout.kemo[position]);
 
         stringID=getSelectedFeatures.roomName;
-        Toast.makeText(ctx, getSelectedFeatures.NotfoundState+"", Toast.LENGTH_SHORT).show();
+
+
         if(getSelectedFeatures.NotfoundState) {
             textView.setText("Not Found");
+
         }
         else
         {
             textView.setText(ctx.getText(Integer.parseInt(stringID)));
         }
-        int pos= position+1;
-//        textView.setText("image : "+pos);
+
         container.addView(item_view);
 
 

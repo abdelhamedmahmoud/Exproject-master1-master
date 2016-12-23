@@ -15,7 +15,7 @@ public class Third_layout extends AppCompatActivity {
     CustomSwipeAdapter adapter;
     static int currentpage = 0;
 
-
+int indicatorAlpha ;
 
 
     @Override
@@ -27,6 +27,13 @@ public class Third_layout extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(viewPager);
+
+        ////// value if 0 then its case of not found then indicator will be hidden and vise versa
+//        indicatorAlpha=CustomSwipeAdapter.indicatorState;
+//        Toast.makeText(this, indicatorAlpha+"", Toast.LENGTH_SHORT).show();
+//        indicator.setAlpha(indicatorAlpha);
+
+
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
