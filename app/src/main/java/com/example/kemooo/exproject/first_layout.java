@@ -27,6 +27,7 @@ public class first_layout extends AppCompatActivity {
 
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this ,android.R.layout.simple_spinner_item , categoryArray);
+        adapter = new ArrayAdapter<String>(this, R.layout.spinner_item,categoryArray);
         final Spinner sp = (Spinner)findViewById(R.id.category);
         sp.setAdapter(adapter);
         sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -50,6 +51,7 @@ public class first_layout extends AppCompatActivity {
 
 
         ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(this ,android.R.layout.simple_spinner_item , SizeArray);
+        adapter1 = new ArrayAdapter<String>(this, R.layout.spinner_item,SizeArray);
         final Spinner sp1 = (Spinner)findViewById(R.id.size);
         sp1.setAdapter(adapter1);
         sp1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -74,6 +76,7 @@ public class first_layout extends AppCompatActivity {
 
 
         ArrayAdapter<String> adapter2 = new ArrayAdapter<>(this ,android.R.layout.simple_spinner_item , priceArray);
+        adapter2 = new ArrayAdapter<String>(this, R.layout.spinner_item,priceArray);
         final Spinner sp2 = (Spinner)findViewById(R.id.price);
         sp2.setAdapter(adapter2);
         sp2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

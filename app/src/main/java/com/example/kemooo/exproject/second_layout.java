@@ -29,6 +29,7 @@ public class second_layout extends AppCompatActivity {
 
 /////////////////////////////////////////// initialize wood spinner ////////////////////////////////
             ArrayAdapter<String> adapterforwood = new ArrayAdapter<>(this ,android.R.layout.simple_spinner_item , woodArray);
+            adapterforwood = new ArrayAdapter<String>(this, R.layout.spinner_item, woodArray);
             final Spinner sp = (Spinner)findViewById(R.id.woodtype);
             sp.setAdapter(adapterforwood);
             sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -48,6 +49,7 @@ public class second_layout extends AppCompatActivity {
 
 /////////////////////////////////////////// initialize color spinner////////////////////////////////
         ArrayAdapter<String> adapterforcolor = new ArrayAdapter<>(this ,android.R.layout.simple_spinner_item , colorsArray);
+        adapterforcolor= new ArrayAdapter<String>(this, R.layout.spinner_item,colorsArray );
         final Spinner spforcolor = (Spinner)findViewById(R.id.colortype);
         spforcolor.setAdapter(adapterforcolor);
         spforcolor.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
