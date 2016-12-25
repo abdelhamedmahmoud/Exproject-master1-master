@@ -35,7 +35,7 @@
         android:gravity="center"
         android:background="@android:drawable/spinner_background"
         android:foregroundGravity="center"
-        android:paddingLeft="55dp"
+        android:paddingLeft="68dp"
         style="@android:style/Widget.DeviceDefault.Light.Spinner"
         android:layout_height="40dp"
         android:contextClickable="false"
@@ -79,7 +79,7 @@
         android:background="@android:drawable/spinner_background"
         android:layout_height="40dp"
         android:layout_marginBottom="15dp"
-        android:paddingLeft="75dp"
+        android:paddingLeft="100dp"
         android:popupBackground="@android:color/background_light"
         />
 
@@ -92,7 +92,7 @@
         android:layout_alignLeft="@+id/textView3"
         android:layout_alignStart="@+id/textView3"
         android:layout_marginBottom="5dp"
-        android:paddingLeft="55dp"
+        android:paddingLeft="68dp"
         android:popupBackground="@android:color/background_light"
         />
 
