@@ -151,434 +151,435 @@ public class getSelectedFeatures {
                 if (first_layout.size.equals("3 * 3")) {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl201,R.drawable.bl211};
-                            roomName=""+R.string.bl201_details;
+                            second_layout.kemo = new int[]{R.drawable.bl201, R.drawable.bl211};
+                            roomName = "" + R.string.bl201_details;
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl202, R.drawable.bl232};
-                            roomName=""+R.string.bl202_details;
+                            roomName = "" + R.string.bl202_details;
                         } else if (second_layout.color.equals("Gray")) {
                             second_layout.kemo = new int[]{R.drawable.bl225};
-                            roomName=""+(R.string.bl225_details);
+                            roomName = "" + (R.string.bl225_details);
                         } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.bl218};
-                            roomName=""+(R.string.bl218_details);
+                            roomName = "" + (R.string.bl218_details);
                         }
-                    }else if(second_layout.wood.equals("Beech")){
-                        if(second_layout.color.equals("Woody")) {
+                    } else if (second_layout.wood.equals("Beech")) {
+                        if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl212};
-                            roomName=""+(R.string.bl212_details);
-                        }else if (second_layout.color.equals("Gray")) {
+                            roomName = "" + (R.string.bl212_details);
+                        } else if (second_layout.color.equals("Gray")) {
                             second_layout.kemo = new int[]{R.drawable.bl226};
-                            roomName=""+(R.string.bl226_details);
-                        }else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{ R.drawable.bl233};
-                            roomName=""+R.string.bl233_details;
-                        }else if (second_layout.color.equals("Black")) {
+                            roomName = "" + (R.string.bl226_details);
+                        } else if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.bl233};
+                            roomName = "" + R.string.bl233_details;
+                        } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.bl219};
-                            roomName=""+(R.string.bl219_details);
+                            roomName = "" + (R.string.bl219_details);
                         }
-                    }else {
+                    } else {
                         second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
+                        NotfoundState = true;
                     }
                 } else if (first_layout.size.equals("3 * 4")) {
                     if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl204, R.drawable.bl205,R.drawable.bl213};
-                            roomName=""+R.string.bl204_details;
+                            second_layout.kemo = new int[]{R.drawable.bl204, R.drawable.bl205, R.drawable.bl213};
+                            roomName = "" + R.string.bl204_details;
                         } else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl206,R.drawable.bl234};
-                            roomName=""+R.string.bl206_details;
+                            second_layout.kemo = new int[]{R.drawable.bl206, R.drawable.bl234};
+                            roomName = "" + R.string.bl206_details;
                         } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.bl220};
-                            roomName=""+(R.string.bl220_details);
-                        }else if (second_layout.color.equals("Gray")) {
+                            roomName = "" + (R.string.bl220_details);
+                        } else if (second_layout.color.equals("Gray")) {
                             second_layout.kemo = new int[]{R.drawable.bl227};
-                            roomName=""+(R.string.bl227_details);
+                            roomName = "" + (R.string.bl227_details);
                         }
-                    }else if(second_layout.wood.equals("Mahogany")){
-                        if(second_layout.color.equals("Woody")) {
+                    } else if (second_layout.wood.equals("Mahogany")) {
+                        if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl114};
-                            roomName=""+(R.string.bl114_details);
-                        }else if (second_layout.color.equals("Gray")) {
+                            roomName = "" + (R.string.bl114_details);
+                        } else if (second_layout.color.equals("Gray")) {
                             second_layout.kemo = new int[]{R.drawable.bl228};
-                            roomName=""+(R.string.bl228_details);
-                        }else if (second_layout.color.equals("off-white")) {
+                            roomName = "" + (R.string.bl228_details);
+                        } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl235};
-                            roomName=""+(R.string.bl235_details);
-                        }else if (second_layout.color.equals("Black")) {
+                            roomName = "" + (R.string.bl235_details);
+                        } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.bl221};
-                            roomName=""+(R.string.bl221_details);
+                            roomName = "" + (R.string.bl221_details);
                         }
                     } else {
                         second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
+                        NotfoundState = true;
                     }
                 } else if (first_layout.size.equals("4 * 5")) {
                     if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl207,R.drawable.bl236};
-                            roomName=""+R.string.bl236_details;
+                            second_layout.kemo = new int[]{R.drawable.bl207, R.drawable.bl236};
+                            roomName = "" + R.string.bl236_details;
                         } else if (second_layout.color.equals("Gray")) {
                             second_layout.kemo = new int[]{R.drawable.bl229};
-                            roomName=""+(R.string.bl229_details);
-                        }else if (second_layout.color.equals("Woody")) {
+                            roomName = "" + (R.string.bl229_details);
+                        } else if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl215};
-                            roomName=""+(R.string.bl214_details);
-                        }else if (second_layout.color.equals("Black")) {
+                            roomName = "" + (R.string.bl214_details);
+                        } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.bl222};
-                            roomName=""+(R.string.bl222_details);
+                            roomName = "" + (R.string.bl222_details);
                         }
                     } else if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl208,R.drawable.bl216};
-                            roomName=""+R.string.bl216_details;
+                            second_layout.kemo = new int[]{R.drawable.bl208, R.drawable.bl216};
+                            roomName = "" + R.string.bl216_details;
                         } else if (second_layout.color.equals("Gray")) {
                             second_layout.kemo = new int[]{R.drawable.bl230};
-                            roomName=""+(R.string.bl230_details);
-                        }else if (second_layout.color.equals("off-white")) {
+                            roomName = "" + (R.string.bl230_details);
+                        } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl237};
-                            roomName=""+(R.string.bl237_details);
-                        }else if (second_layout.color.equals("Black")) {
+                            roomName = "" + (R.string.bl237_details);
+                        } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.bl223};
-                            roomName=""+(R.string.bl223_details);
+                            roomName = "" + (R.string.bl223_details);
                         }
                     } else {
                         second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
+                        NotfoundState = true;
                     }
                 } else if (first_layout.size.equals("5 * 5")) {
                     if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl209,R.drawable.bl217};
-                            roomName=""+R.string.bl209_details;
+                            second_layout.kemo = new int[]{R.drawable.bl209, R.drawable.bl217};
+                            roomName = "" + R.string.bl209_details;
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.bl238};
-                            roomName=""+(R.string.bl238_details);
-                        }else if (second_layout.color.equals("Black")) {
+                            roomName = "" + (R.string.bl238_details);
+                        } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.bl224};
-                            roomName=""+(R.string.bl224_details);
-                        }else if (second_layout.color.equals("Gray")) {
+                            roomName = "" + (R.string.bl224_details);
+                        } else if (second_layout.color.equals("Gray")) {
                             second_layout.kemo = new int[]{R.drawable.bl231};
-                            roomName=""+(R.string.bl231_details);
+                            roomName = "" + (R.string.bl231_details);
                         }
                     } else if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Woody")) {
                             second_layout.kemo = new int[]{R.drawable.bl210};
-                            roomName=""+R.string.bl210_details;
+                            roomName = "" + R.string.bl210_details;
                         } else if (second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("Black")) {
+                            NotfoundState = true;
+                        } else if (second_layout.color.equals("Black")) {
                             second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("Gray")) {
+                            NotfoundState = true;
+                        } else if (second_layout.color.equals("Gray")) {
                             second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
+                            NotfoundState = true;
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
                     }
                 }
-            } else if (first_layout.price.equals("40,000 - 60,000")) {
-                if (first_layout.size.equals("3 * 3")) {
-                    if (second_layout.wood.equals("Beech")) {
-                        if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl311};
-                            roomName=""+R.string.bl311_details;
-                        } else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl332};
-                            roomName=""+(R.string.bl332_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl318};
-                            roomName=""+(R.string.bl318_details);
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl325};
-                            roomName=""+(R.string.bl325_details);
-                        }
-                    } else if (second_layout.wood.equals("Oak")) {
-                        if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl312};
-                            roomName=""+R.string.bl312_details;
-                        } else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl333};
-                            roomName=""+(R.string.bl333_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl319};
-                            roomName=""+(R.string.bl319_details);
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl326};
-                            roomName=""+(R.string.bl326_details);
-                        }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
-                    }
-                } else if (first_layout.size.equals("3 * 4")) {
-                    if (second_layout.wood.equals("Beech")) {
-                        if(second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl301,R.drawable.bl334};
-                            roomName = "" + R.string.bl334_details;
-                        }else if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl313};
-                            roomName=""+(R.string.bl313_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl320};
-                            roomName=""+(R.string.bl320_details);
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl327};
-                            roomName=""+(R.string.bl327_details);
-                        }
-                    }else if (second_layout.wood.equals("Oak")) {
-                        if(second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl335};
-                            roomName = "" + R.string.bl335_details;
-                        }else if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl314};
-                            roomName=""+(R.string.bl314_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl321};
-                            roomName=""+(R.string.bl320_details);
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl328};
-                            roomName=""+(R.string.bl328_details);
-                        }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
-                    }
-                } else if (first_layout.size.equals("4 * 5")) {
-                    if (second_layout.wood.equals("Oak")) {
-                        if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl302,R.drawable.bl336};
-                            roomName=""+R.string.bl336_details;
-                        } else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl329};
-                            roomName=""+(R.string.bl329_details);
-                        }else if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl315};
-                            roomName=""+(R.string.bl315_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl322};
-                            roomName=""+(R.string.bl322_details);
-                        }
-                    } else if (second_layout.wood.equals("Beech")) {
-                        if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl337};
-                            roomName=""+R.string.bl336_details;
-                        } else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl330};
-                            roomName=""+(R.string.bl329_details);
-                        }else if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl316};
-                            roomName=""+(R.string.bl314_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl323};
-                            roomName=""+(R.string.bl322_details);
-                        }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
-                    }
-                } else if (first_layout.size.equals("5 * 5")) {
-                    if (second_layout.wood.equals("Beech")) {
-                        if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl317};
-                            roomName=""+R.string.bl317_details;
-                        } else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl338};
-                            roomName=""+(R.string.bl338_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl324};
-                            roomName=""+(R.string.bl324_details);
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl331};
-                            roomName=""+(R.string.bl331_details);
-                        }
-                    }else if (second_layout.wood.equals("Oak")) {
-                        if(second_layout.color.equals("Woody")) {
+                } else if (first_layout.price.equals("40,000 - 60,000")) {
+                    if (first_layout.size.equals("3 * 3")) {
+                        if (second_layout.wood.equals("Beech")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl311};
+                                roomName = "" + R.string.bl311_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl332};
+                                roomName = "" + (R.string.bl332_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl318};
+                                roomName = "" + (R.string.bl318_details);
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl325};
+                                roomName = "" + (R.string.bl325_details);
+                            }
+                        } else if (second_layout.wood.equals("Oak")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl312};
+                                roomName = "" + R.string.bl312_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl333};
+                                roomName = "" + (R.string.bl333_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl319};
+                                roomName = "" + (R.string.bl319_details);
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl326};
+                                roomName = "" + (R.string.bl326_details);
+                            }
+                        } else {
                             second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
+                            NotfoundState = true;
                         }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
+                    } else if (first_layout.size.equals("3 * 4")) {
+                        if (second_layout.wood.equals("Beech")) {
+                            if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl301, R.drawable.bl334};
+                                roomName = "" + R.string.bl334_details;
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl313};
+                                roomName = "" + (R.string.bl313_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl320};
+                                roomName = "" + (R.string.bl320_details);
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl327};
+                                roomName = "" + (R.string.bl327_details);
+                            }
+                        } else if (second_layout.wood.equals("Oak")) {
+                            if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl335};
+                                roomName = "" + R.string.bl335_details;
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl314};
+                                roomName = "" + (R.string.bl314_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl321};
+                                roomName = "" + (R.string.bl320_details);
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl328};
+                                roomName = "" + (R.string.bl328_details);
+                            }
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    } else if (first_layout.size.equals("4 * 5")) {
+                        if (second_layout.wood.equals("Oak")) {
+                            if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl302, R.drawable.bl336};
+                                roomName = "" + R.string.bl336_details;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl329};
+                                roomName = "" + (R.string.bl329_details);
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl315};
+                                roomName = "" + (R.string.bl315_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl322};
+                                roomName = "" + (R.string.bl322_details);
+                            }
+                        } else if (second_layout.wood.equals("Beech")) {
+                            if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl337};
+                                roomName = "" + R.string.bl336_details;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl330};
+                                roomName = "" + (R.string.bl329_details);
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl316};
+                                roomName = "" + (R.string.bl314_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl323};
+                                roomName = "" + (R.string.bl322_details);
+                            }
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
+                    } else if (first_layout.size.equals("5 * 5")) {
+                        if (second_layout.wood.equals("Beech")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl317};
+                                roomName = "" + R.string.bl317_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl338};
+                                roomName = "" + (R.string.bl338_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl324};
+                                roomName = "" + (R.string.bl324_details);
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl331};
+                                roomName = "" + (R.string.bl331_details);
+                            }
+                        } else if (second_layout.wood.equals("Oak")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            }
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
                     }
-                }
-            } else if (first_layout.price.equals("more than 60,000")) {
-                if (first_layout.size.equals("3 * 3")) {
-                    if (second_layout.wood.equals("Oak")) {
-                        if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl411};
-                            roomName=""+R.string.bl411_details;
-                        } else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl432};
-                            roomName=""+(R.string.bl432_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl418};
-                            roomName=""+(R.string.bl418_details);
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl425};
-                            roomName=""+(R.string.bl425_details);
+                } else if (first_layout.price.equals("more than 60,000")) {
+                    if (first_layout.size.equals("3 * 3")) {
+                        if (second_layout.wood.equals("Oak")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl411};
+                                roomName = "" + R.string.bl411_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl432};
+                                roomName = "" + (R.string.bl432_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl418};
+                                roomName = "" + (R.string.bl418_details);
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl425};
+                                roomName = "" + (R.string.bl425_details);
+                            }
+                        } else if (second_layout.wood.equals("Cedar")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl412};
+                                roomName = "" + R.string.bl412_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl433};
+                                roomName = "" + (R.string.bl433_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl419};
+                                roomName = "" + (R.string.bl419_details);
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl426};
+                                roomName = "" + (R.string.bl426_details);
+                            }
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
                         }
-                    } else if (second_layout.wood.equals("Cedar")) {
-                        if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl412};
-                            roomName=""+R.string.bl412_details;
-                        } else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl433};
-                            roomName=""+(R.string.bl433_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl419};
-                            roomName=""+(R.string.bl419_details);
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl426};
-                            roomName=""+(R.string.bl426_details);
-                        }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
-                    }
-                } else if (first_layout.size.equals("3 * 4")) {
-                    if (second_layout.wood.equals("Cedar")) {
-                        if(second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl434};
-                            roomName = "" + R.string.bl434_details;
-                        }else if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl413};
-                            roomName=""+(R.string.bl413_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl420};
-                            roomName=""+(R.string.bl420_details);
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl427};
-                            roomName=""+(R.string.bl427_details);
-                    }else if (second_layout.wood.equals("Oak")) {
-                            if(second_layout.color.equals("off-white")) {
+                    } else if (first_layout.size.equals("3 * 4")) {
+                        if (second_layout.wood.equals("Cedar")) {
+                            if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl434};
+                                roomName = "" + R.string.bl434_details;
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl413};
+                                roomName = "" + (R.string.bl413_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl420};
+                                roomName = "" + (R.string.bl420_details);
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl427};
+                                roomName = "" + (R.string.bl427_details);
+                            }
+                        } else if (second_layout.wood.equals("Oak")) {
+                            if (second_layout.color.equals("off-white")) {
                                 second_layout.kemo = new int[]{R.drawable.bl435};
                                 roomName = "" + R.string.bl435_details;
-                            }else if (second_layout.color.equals("Woody")) {
+                            } else if (second_layout.color.equals("Woody")) {
                                 second_layout.kemo = new int[]{R.drawable.bl414};
-                                roomName=""+(R.string.bl414_details);
-                            }else if (second_layout.color.equals("Black")) {
+                                roomName = "" + (R.string.bl414_details);
+                            } else if (second_layout.color.equals("Black")) {
                                 second_layout.kemo = new int[]{R.drawable.bl421};
-                                roomName=""+(R.string.bl420_details);
-                            }else if (second_layout.color.equals("Gray")) {
+                                roomName = "" + (R.string.bl420_details);
+                            } else if (second_layout.color.equals("Gray")) {
                                 second_layout.kemo = new int[]{R.drawable.bl428};
-                                roomName=""+(R.string.bl428_details);
+                                roomName = "" + (R.string.bl428_details);
                             }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
-                    }
-                }else if (first_layout.size.equals("4 * 5")) {
-                    if (second_layout.wood.equals("Cedar")) {
-                        if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl402,R.drawable.bl435};
-                            roomName=""+R.string.bl436_details;
-                        } else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.bl428};
-                            roomName=""+(R.string.bl429_details);
-                        }else if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl415};
-                            roomName=""+(R.string.bl415_details);
-                        }else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl421};
-                            roomName=""+(R.string.bl422_details);
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
                         }
-                    } else if (second_layout.wood.equals("Oak")) {
-                        if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl416};
-                            roomName=""+R.string.bl416_details;
-                        } else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.bl435};
-                            roomName=""+(R.string.bl435_details);
-                        }else if (second_layout.color.equals("Black")) {
+                    } else if (first_layout.size.equals("4 * 5")) {
+                        if (second_layout.wood.equals("Cedar")) {
+                            if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl402, R.drawable.bl435};
+                                roomName = "" + R.string.bl436_details;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.bl428};
+                                roomName = "" + (R.string.bl429_details);
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl415};
+                                roomName = "" + (R.string.bl415_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl421};
+                                roomName = "" + (R.string.bl422_details);
+                            }
+                        } else if (second_layout.wood.equals("Oak")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl416};
+                                roomName = "" + R.string.bl416_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.bl435};
+                                roomName = "" + (R.string.bl435_details);
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            }
+                        } else {
                             second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
+                            NotfoundState = true;
                         }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
-                    }
-                } else if (first_layout.size.equals("5 * 5")) {
-                    if (second_layout.wood.equals("Cedar")) {
-                        if(second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.bl402};
-                            roomName = "" + R.string.bl402_details;
-                        }else if (second_layout.color.equals("off-white")) {
+                    } else if (first_layout.size.equals("5 * 5")) {
+                        if (second_layout.wood.equals("Cedar")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.bl402};
+                                roomName = "" + R.string.bl402_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            }
+                        } else if (second_layout.wood.equals("Oak")) {
+                            if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.bl403};
+                                roomName = "" + R.string.bl403_details;
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            }
+                        } else {
                             second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("Black")) {
-                           second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("Gray")) {
-                            second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
+                            NotfoundState = true;
                         }
-                    } else if (second_layout.wood.equals("Oak")) {
-                        if(second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.bl403};
-                            roomName = "" + R.string.bl403_details;
-                        }else if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }else if (second_layout.color.equals("Gray")) {
-                         second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
-                        }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
                     }
                 }
-            }
-        } else if (first_layout.category.equals("Living Rooms")) {
+            }else if (first_layout.category.equals("Living Rooms")) {
             if (first_layout.price.equals("10,000 - 20,000")) {
                 if (first_layout.size.equals("3 * 3")) {
                     if (second_layout.wood.equals("Pine")) {
                         if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.ll101};
+                            second_layout.kemo = new int[]{R.drawable.ll101,R.drawable.ll132};
                             roomName=""+R.string.ll101_details;
                         } else if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.ll102};
+                            second_layout.kemo = new int[]{R.drawable.ll102,R.drawable.ll111};
                             roomName=""+R.string.ll102_details;
-
                         } else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.ll103};
+                            second_layout.kemo = new int[]{R.drawable.ll103,R.drawable.ll118};
                             roomName=""+R.string.ll103_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
+                            second_layout.kemo = new int[]{R.drawable.ll125};
+                            roomName=""+(R.string.bl101_details);
                         }
                     }else if (second_layout.wood.equals("Mahogany")) {
-                        if(second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl403};
-//                            roomName = "" + R.string.bl403_details;
-                        }else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
-                        }else if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
-                        }else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
+                        if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.ll133};
+                            roomName=""+R.string.ll133_details;
+                        } else if (second_layout.color.equals("Woody")) {
+                            second_layout.kemo = new int[]{R.drawable.ll112};
+                            roomName=""+R.string.ll112_details;
+                        } else if (second_layout.color.equals("Black")) {
+                            second_layout.kemo = new int[]{R.drawable.ll119};
+                            roomName=""+R.string.ll119_details;
+                        } else if (second_layout.color.equals("Gray")) {
+                            second_layout.kemo = new int[]{R.drawable.ll126};
+                            roomName=""+(R.string.bl126_details);
                         }
                     }else {
                         second_layout.kemo = new int[]{R.drawable.white};
@@ -587,34 +588,31 @@ public class getSelectedFeatures {
                 } else if (first_layout.size.equals("3 * 4")) {
                     if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.ll104};
+                            second_layout.kemo = new int[]{R.drawable.ll104,R.drawable.ll113};
                             roomName=""+R.string.ll104_details;
                         } else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.ll105};
+                            second_layout.kemo = new int[]{R.drawable.ll105,R.drawable.ll134};
                             roomName=""+R.string.ll105_details;
                         }else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
+                            second_layout.kemo = new int[]{R.drawable.ll120};
+                            roomName=""+R.string.ll120_details;
                         }else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
+                            second_layout.kemo = new int[]{R.drawable.ll127};
+                            roomName=""+R.string.ll127_details;
                         }
                     }else if (second_layout.wood.equals("Pine")) {
                         if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll101};
-//                            roomName=""+R.string.ll101_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll135};
+                            roomName=""+R.string.ll133_details;
                         } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll102};
-//                            roomName = "" + R.string.ll102_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll114};
+                            roomName=""+R.string.ll112_details;
                         } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll103};
-//                            roomName = "" + R.string.ll103_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll121};
+                            roomName=""+R.string.ll119_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
+                            second_layout.kemo = new int[]{R.drawable.ll128};
+                            roomName=""+(R.string.bl126_details);
                         }
                     }else {
                         second_layout.kemo = new int[]{R.drawable.white};
@@ -623,38 +621,32 @@ public class getSelectedFeatures {
                 } else if (first_layout.size.equals("4 * 5")) {
                     if (second_layout.wood.equals("Pine")) {
                         if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.ll107};
-                            roomName=""+R.string.ll107_details;
-
-                        } else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.ll108};
-                            roomName=""+R.string.ll108_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll107,R.drawable.ll136};
+                            roomName=""+R.string.ll136_details;
                         } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll103};
-//                            roomName = "" + R.string.ll103_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll115};
+                            roomName=""+R.string.ll115_details;
+                        } else if (second_layout.color.equals("Black")) {
+                            second_layout.kemo = new int[]{R.drawable.ll122};
+                            roomName=""+R.string.ll122_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
+                            second_layout.kemo = new int[]{R.drawable.ll129};
+                            roomName=""+(R.string.bl129_details);
                         }
                     }else if (second_layout.wood.equals("Mahogany")) {
                         if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.ll107};
+                            second_layout.kemo = new int[]{R.drawable.ll107,R.drawable.ll137};
                             roomName = "" + R.string.ll107_details;
-
                         } else if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.ll108};
+                            second_layout.kemo = new int[]{R.drawable.ll108,R.drawable.ll123};
                             roomName = "" + R.string.ll108_details;
-
-                        } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll103};
-//                            roomName = "" + R.string.ll103_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
-                        }
+                        }else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.ll116};
+                                roomName=""+R.string.ll116_details;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.ll130};
+                                roomName=""+(R.string.bl130_details);
+                            }
                     }else {
                             second_layout.kemo = new int[]{R.drawable.white};
                             NotfoundState = true;
@@ -665,16 +657,16 @@ public class getSelectedFeatures {
                             second_layout.kemo = new int[]{R.drawable.ll106, R.drawable.ll109};
                             roomName=""+R.string.ll106_details;
                         } else if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll108};
-//                            roomName = "" + R.string.ll108_details;
+                            second_layout.kemo = new int[]{R.drawable.ll138};
+                            roomName = "" + R.string.ll138_details;
 
                         } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll103};
-//                            roomName = "" + R.string.ll103_details;
+                            second_layout.kemo = new int[]{R.drawable.ll117};
+                            roomName = "" + R.string.ll117_details;
 
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     } else if (second_layout.wood.equals("Pine")) {
                         if (second_layout.color.equals("off-white")) {
@@ -682,16 +674,16 @@ public class getSelectedFeatures {
                             roomName=""+R.string.ll110_details;
 
                         } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll108};
-//                            roomName = "" + R.string.ll108_details;
+                            second_layout.kemo = new int[]{R.drawable.ll124};
+                            roomName = "" + R.string.ll124_details;
 
                         } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll103};
-//                            roomName = "" + R.string.ll103_details;
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
 
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.bl101};
-//                            roomName=""+(R.string.bl101_details);
+                            second_layout.kemo = new int[]{R.drawable.bl131};
+                            roomName=""+(R.string.bl131_details);
                         }
                     } else {
                         second_layout.kemo = new int[]{R.drawable.white};
@@ -702,177 +694,174 @@ public class getSelectedFeatures {
                 if (first_layout.size.equals("3 * 3")) {
                     if (second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
+                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll211};
                             roomName = "" + R.string.ll201_details;
                         } else if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll232};
+                            roomName = "" + R.string.ll232_details;
                         } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll218};
+                            roomName = "" + R.string.ll218_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll225};
+                            roomName = "" + R.string.ll225_details;
                         }
-                    }else if (second_layout.wood.equals("Mahogany")) {
-                        if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName = "" + R.string.ll201_details;
-                        } else if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        }
-                    } else {
+                    } else if (second_layout.wood.equals("Mahogany")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.ll202, R.drawable.ll212};
+                                roomName = "" + R.string.ll202_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.ll233};
+                                roomName = "" + R.string.ll233_details;
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.ll219};
+                                roomName = "" + R.string.ll219_details;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.ll226};
+                                roomName = "" + R.string.ll226_details;
+                            }
+                        } else {
                             second_layout.kemo = new int[]{R.drawable.white};
-                            NotfoundState=true;
+                            NotfoundState = true;
                         }
-                } else if (first_layout.size.equals("3 * 4")) {
-                    if (second_layout.wood.equals("Beech")) {
-                        if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.ll203, R.drawable.ll204, R.drawable.ll205};
-                            roomName=""+R.string.ll203_details;
-                        } else if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                    } else if (first_layout.size.equals("3 * 4")) {
+                        if (second_layout.wood.equals("Beech")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.ll203, R.drawable.ll204, R.drawable.ll213};
+                                roomName = "" + R.string.ll203_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.ll234};
+                                roomName = "" + R.string.ll234_details;
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.ll220};
+                                roomName = "" + R.string.ll220_details;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.ll227};
+                                roomName = "" + R.string.ll227_details;
+                            }
+                        } else if (second_layout.wood.equals("Mahogany")) {
+                            if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.ll205, R.drawable.ll214};
+                                roomName = "" + R.string.ll205_details;
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.ll235};
+                                roomName = "" + R.string.ll235_details;
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.ll221};
+                                roomName = "" + R.string.ll221_details;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.ll228};
+                                roomName = "" + R.string.ll228_details;
+                            }
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
                         }
-                    }else if (second_layout.wood.equals("Mahogany")) {
-                        if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName = "" + R.string.ll201_details;
-                        } else if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                    } else if (first_layout.size.equals("4 * 5")) {
+                        if (second_layout.wood.equals("Mahogany")) {
+                            if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.ll206, R.drawable.ll222};
+                                roomName = "" + R.string.ll206_details;
+
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.ll207, R.drawable.ll236};
+                                roomName = "" + R.string.ll207_details;
+
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.ll208, R.drawable.ll215};
+                                roomName = "" + R.string.ll208_details;
+
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.ll229};
+                                roomName = "" + R.string.ll229_details;
+                            }
+                        } else if (second_layout.wood.equals("Beech")) {
+                            if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.ll223};
+                                roomName = "" + R.string.ll206_details;
+
+                            } else if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.ll237};
+                                roomName = "" + R.string.ll207_details;
+
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.ll216};
+                                roomName = "" + R.string.ll208_details;
+
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.ll230};
+                                roomName = "" + R.string.ll229_details;
+                            }
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
                         }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
+                    } else if (first_layout.size.equals("5 * 5")) {
+                        if (second_layout.wood.equals("Mahogany")) {
+                            if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.ll209, R.drawable.ll238};
+                                roomName = "" + R.string.ll209_details;
+
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.ll224};
+                                roomName = "" + R.string.ll224_details;
+
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            }
+                        } else if (second_layout.wood.equals("Beech")) {
+                            if (second_layout.color.equals("off-white")) {
+                                second_layout.kemo = new int[]{R.drawable.ll210};
+                                roomName = "" + R.string.ll210_details;
+                            } else if (second_layout.color.equals("Black")) {
+                                second_layout.kemo = new int[]{R.drawable.white};
+                                NotfoundState = true;
+                            } else if (second_layout.color.equals("Woody")) {
+                                second_layout.kemo = new int[]{R.drawable.ll217};
+                                roomName = "" + R.string.ll217_details;
+                            } else if (second_layout.color.equals("Gray")) {
+                                second_layout.kemo = new int[]{R.drawable.ll231};
+                                roomName = "" + R.string.ll231_details;
+                            }
+                        } else {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState = true;
+                        }
                     }
-                } else if (first_layout.size.equals("4 * 5")) {
-                    if (second_layout.wood.equals("Mahogany")) {
-                        if (second_layout.color.equals("Black")) {
-                            second_layout.kemo = new int[]{R.drawable.ll206};
-                            roomName=""+R.string.ll206_details;
-
-                        } else if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.ll207};
-                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.ll208};
-                            roomName=""+R.string.ll208_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        }
-                    }else if (second_layout.wood.equals("Beech")) {
-                        if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName = "" + R.string.ll201_details;
-                        } else if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
-                    }
-                } else if (first_layout.size.equals("5 * 5")) {
-                    if (second_layout.wood.equals("Mahogany")) {
-                        if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.ll209};
-                            roomName = "" + R.string.ll209_details;
-
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        }
-                    }else if (second_layout.wood.equals("Beech")) {
-                        if(second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.ll210};
-                            roomName = "" + R.string.ll210_details;
-                        }else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                        }
-                    } else {
-                        second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
-                    }
-                }
-            } else if (first_layout.price.equals("40,000 - 60,000")) {
+                } else if (first_layout.price.equals("40,000 - 60,000")) {
                 if (first_layout.size.equals("3 * 3")) {
                     if(second_layout.wood.equals("Beech")){
                         if(second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.ll301, R.drawable.ll308};
+                            second_layout.kemo = new int[]{R.drawable.ll301, R.drawable.ll308,R.drawable.ll332};
                             roomName = "" + R.string.ll301_details;
                         }else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll318};
+                            roomName=""+R.string.ll318_details;
                         } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll311};
+                            roomName=""+R.string.ll311_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll325};
+                            roomName=""+R.string.ll325_details;
                         }
                     }else if(second_layout.wood.equals("Oak")){
                         if(second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll301, R.drawable.ll308};
-//                            roomName = "" + R.string.ll301_details;
+                            second_layout.kemo = new int[]{R.drawable.ll333};
+                            roomName = "" + R.string.ll333_details;
                         }else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll319};
+                            roomName=""+R.string.ll319_details;
                         } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll312};
+                            roomName=""+R.string.ll312_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll326};
+                            roomName=""+R.string.ll326_details;
                         }
                     } else {
                         second_layout.kemo = new int[]{R.drawable.white};
@@ -881,35 +870,31 @@ public class getSelectedFeatures {
                 } else if (first_layout.size.equals("3 * 4")) {
                     if(second_layout.wood.equals("Oak")){
                         if(second_layout.color.equals("Black")){
-                            second_layout.kemo = new int[]{R.drawable.ll302};
+                            second_layout.kemo = new int[]{R.drawable.ll302,R.drawable.ll313};
                             roomName=""+R.string.ll302_details;
                         }else if(second_layout.color.equals("off-white")){
-                            second_layout.kemo = new int[]{R.drawable.ll303};
-                            roomName=""+R.string.ll303_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll303,R.drawable.ll334};
+                            roomName=""+R.string.ll334_details;
                         }else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll220};
+                            roomName=""+R.string.ll220_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll227};
+                            roomName=""+R.string.ll227_details;
                         }
                     }else if(second_layout.wood.equals("Beech")) {
-                        if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll301, R.drawable.ll308};
-//                            roomName = "" + R.string.ll301_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
+                        if(second_layout.color.equals("Black")){
+                            second_layout.kemo = new int[]{R.drawable.ll322};
+                            roomName=""+R.string.ll322_details;
+                        }else if(second_layout.color.equals("off-white")){
+                            second_layout.kemo = new int[]{R.drawable.ll335};
+                            roomName=""+R.string.ll335_details;
+                        }else if (second_layout.color.equals("Woody")) {
+                            second_layout.kemo = new int[]{R.drawable.ll214};
+                            roomName=""+R.string.ll214_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll228};
+                            roomName=""+R.string.ll228_details;
                         }
                     }else {
                         second_layout.kemo = new int[]{R.drawable.white};
@@ -921,28 +906,28 @@ public class getSelectedFeatures {
                             second_layout.kemo = new int[]{R.drawable.ll305, R.drawable.ll306, R.drawable.ll307};
                             roomName = "" + R.string.ll305_details;
                         }else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
+                            second_layout.kemo = new int[]{R.drawable.ll322};
+                            roomName=""+R.string.ll322_details;
                         } else if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
+                            second_layout.kemo = new int[]{R.drawable.ll336};
+                            roomName = "" + R.string.ll336_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll329};
+                            roomName = "" + R.string.ll329_details;
                         }
                     }else if(second_layout.wood.equals("Beech")) {
                         if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll301, R.drawable.ll308};
-//                            roomName = "" + R.string.ll301_details;
+                            second_layout.kemo = new int[]{R.drawable.ll337};
+                            roomName = "" + R.string.ll336_details;
                         } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
+                            second_layout.kemo = new int[]{R.drawable.ll323};
+                            roomName=""+R.string.ll323_details;
                         } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
+                            second_layout.kemo = new int[]{R.drawable.ll315,R.drawable.ll316};
+                            roomName=""+R.string.ll316_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll330};
+                            roomName = "" + R.string.ll330_details;
                         }
                     }else {
                         second_layout.kemo = new int[]{R.drawable.white};
@@ -954,32 +939,28 @@ public class getSelectedFeatures {
                             second_layout.kemo = new int[]{R.drawable.ll304};
                             roomName=""+R.string.ll304_details;
                         } else if (second_layout.color.equals("off-white")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll338};
+                            roomName=""+R.string.ll338_details;
                         } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll317};
+                            roomName=""+R.string.ll317_details;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     }else if(second_layout.wood.equals("Oak" )){
                         if(second_layout.color.equals("off-white")) {
                             second_layout.kemo = new int[]{R.drawable.ll309};
                             roomName = "" + R.string.ll309_details;
                         }else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
+                            second_layout.kemo = new int[]{R.drawable.ll324};
+                            roomName=""+R.string.ll324_details;
                         } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll331};
+                            roomName=""+R.string.ll331_details;
                         }
                     }else {
                         second_layout.kemo = new int[]{R.drawable.white};
@@ -989,71 +970,65 @@ public class getSelectedFeatures {
             } else if (first_layout.price.equals("more than 60,000")) {
                 if (first_layout.size.equals("3 * 3")) {
                     if (second_layout.wood.equals("Oak")) {
-                        if (second_layout.color.equals("off-white")) {
-                            second_layout.kemo = new int[]{R.drawable.ll309};
-                            roomName = "" + R.string.ll309_details;
+                        if (second_layout.color.equals("Woody")) {
+                            second_layout.kemo = new int[]{R.drawable.ll411};
+                            roomName = "" + R.string.ll411_details;
                         } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
+                            second_layout.kemo = new int[]{R.drawable.ll418};
+                            roomName = "" + R.string.ll418_details;
+                        }else if (second_layout.color.equals("Gray")) {
+                            second_layout.kemo = new int[]{R.drawable.ll425};
+                            roomName=""+R.string.ll425_details;
+                        } else if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.ll432};
+                            roomName=""+R.string.ll432_details;
                         }
                     }else if(second_layout.wood.equals("Cedar")){
-                    if (second_layout.color.equals("off-white")) {
-//                        second_layout.kemo = new int[]{R.drawable.ll309};
-//                        roomName = "" + R.string.ll309_details;
-                    } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                    } else if (second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
-
-                    } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll201, R.drawable.ll202};
-//                            roomName=""+R.string.ll201_details;
-                    }
-                }else {
+                        if (second_layout.color.equals("Woody")) {
+                            second_layout.kemo = new int[]{R.drawable.ll412};
+                            roomName = "" + R.string.ll412_details;
+                        } else if (second_layout.color.equals("Black")) {
+                            second_layout.kemo = new int[]{R.drawable.ll419};
+                            roomName = "" + R.string.ll419_details;
+                        }else if (second_layout.color.equals("Gray")) {
+                            second_layout.kemo = new int[]{R.drawable.ll426};
+                            roomName=""+R.string.ll426_details;
+                        } else if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.ll433};
+                            roomName=""+R.string.ll433_details;
+                        }
+                    }else {
                         second_layout.kemo = new int[]{R.drawable.white};
                         NotfoundState=true;
                     }
             } else if (first_layout.size.equals("3 * 4")) {
                     if(second_layout.wood.equals("Cedar" )){
                         if(second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.ll401};
+                            second_layout.kemo = new int[]{R.drawable.ll401,R.drawable.ll413};
                             roomName = "" + R.string.ll401_details;
-                        }else if (second_layout.color.equals("off-white")) {
-//                        second_layout.kemo = new int[]{R.drawable.ll309};
-//                        roomName = "" + R.string.ll309_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
+                        }else if (second_layout.color.equals("Black")) {
+                            second_layout.kemo = new int[]{R.drawable.ll420};
+                            roomName = "" + R.string.ll420_details;
+                        }else if (second_layout.color.equals("Gray")) {
+                            second_layout.kemo = new int[]{R.drawable.ll427};
+                            roomName=""+R.string.ll427_details;
+                        } else if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.ll434};
+                            roomName=""+R.string.ll434_details;
                         }
                     }else if(second_layout.wood.equals("Oak" )){
-                        if(second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll401};
-//                            roomName = "" + R.string.ll401_details;
-                        }else if (second_layout.color.equals("off-white")) {
-//                        second_layout.kemo = new int[]{R.drawable.ll309};
-//                        roomName = "" + R.string.ll309_details;
+                        if (second_layout.color.equals("Woody")) {
+                            second_layout.kemo = new int[]{R.drawable.ll414};
+                            roomName = "" + R.string.ll414_details;
                         } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
+                            second_layout.kemo = new int[]{R.drawable.ll421};
+                            roomName = "" + R.string.ll421_details;
+                        }else if (second_layout.color.equals("Gray")) {
+                            second_layout.kemo = new int[]{R.drawable.ll428};
+                            roomName=""+R.string.ll428_details;
+                        } else if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.ll435};
+                            roomName=""+R.string.ll435_details;
                         }
                     } else {
                         second_layout.kemo = new int[]{R.drawable.white};
@@ -1062,33 +1037,31 @@ public class getSelectedFeatures {
                 } else if (first_layout.size.equals("4 * 5")) {
                     if(second_layout.wood.equals("Cedar" )){
                         if(second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.ll402};
+                            second_layout.kemo = new int[]{R.drawable.ll402,R.drawable.ll415};
                             roomName = "" + R.string.ll402_details;
-                        }else if (second_layout.color.equals("off-white")) {
-//                        second_layout.kemo = new int[]{R.drawable.ll309};
-//                        roomName = "" + R.string.ll309_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
+                        }else if (second_layout.color.equals("Black")) {
+                            second_layout.kemo = new int[]{R.drawable.ll422};
+                            roomName = "" + R.string.ll422_details;
+                        }else if (second_layout.color.equals("Gray")) {
+                            second_layout.kemo = new int[]{R.drawable.ll429};
+                            roomName=""+R.string.ll429_details;
+                        } else if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.ll436};
+                            roomName=""+R.string.ll436_details;
                         }
                     }else if(second_layout.wood.equals("Oak" )){
                         if(second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll401};
-//                            roomName = "" + R.string.ll401_details;
-                        }else if (second_layout.color.equals("off-white")) {
-//                        second_layout.kemo = new int[]{R.drawable.ll309};
-//                        roomName = "" + R.string.ll309_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
+                            second_layout.kemo = new int[]{R.drawable.ll416};
+                            roomName = "" + R.string.ll416_details;
+                        }else if (second_layout.color.equals("Black")) {
+                            second_layout.kemo = new int[]{R.drawable.ll423};
+                            roomName = "" + R.string.ll423_details;
+                        }else if (second_layout.color.equals("Gray")) {
+                            second_layout.kemo = new int[]{R.drawable.ll430};
+                            roomName=""+R.string.ll430_details;
+                        } else if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.ll437};
+                            roomName=""+R.string.ll437_details;
                         }
                     }else {
                         second_layout.kemo = new int[]{R.drawable.white};
@@ -1097,36 +1070,35 @@ public class getSelectedFeatures {
                 } else if (first_layout.size.equals("5 * 5")) {
                     if(second_layout.wood.equals("Cedar" )){
                         if(second_layout.color.equals("Woody")) {
-                            second_layout.kemo = new int[]{R.drawable.ll403, R.drawable.bl401};
+                            second_layout.kemo = new int[]{R.drawable.ll403};
                             roomName = "" + R.string.ll403_details;
-                        }else if (second_layout.color.equals("off-white")) {
-//                        second_layout.kemo = new int[]{R.drawable.ll309};
-//                        roomName = "" + R.string.ll309_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
+                        }else if (second_layout.color.equals("Black")) {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
+                        }else if (second_layout.color.equals("Gray")) {
+                            second_layout.kemo = new int[]{R.drawable.ll431};
+                            roomName=""+R.string.ll431_details;
+                        } else if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
                         }
                     }else if(second_layout.wood.equals("Oak" )){
                         if(second_layout.color.equals("Woody")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll401};
-//                            roomName = "" + R.string.ll401_details;
-                        }else if (second_layout.color.equals("off-white")) {
-//                        second_layout.kemo = new int[]{R.drawable.ll309};
-//                        roomName = "" + R.string.ll309_details;
-                        } else if (second_layout.color.equals("Black")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll207};
-//                            roomName=""+R.string.ll207_details;
-
-                        } else if (second_layout.color.equals("Gray")) {
-//                            second_layout.kemo = new int[]{R.drawable.ll208};
-//                            roomName=""+R.string.ll208_details;
+                            second_layout.kemo = new int[]{R.drawable.ll417};
+                            roomName = "" + R.string.ll417_details;
+                        }else if (second_layout.color.equals("Black")) {
+                            second_layout.kemo = new int[]{R.drawable.ll424};
+                            roomName = "" + R.string.ll424_details;
+                        }else if (second_layout.color.equals("Gray")) {
+                            second_layout.kemo = new int[]{R.drawable.white};
+                            NotfoundState=true;
+                        } else if (second_layout.color.equals("off-white")) {
+                            second_layout.kemo = new int[]{R.drawable.ll438};
+                            roomName=""+R.string.ll438_details;
                         }
                     } else {
                         second_layout.kemo = new int[]{R.drawable.white};
-                        NotfoundState=true;
+                        NotfoundState = true;
                     }
                 }
             }
@@ -1597,7 +1569,7 @@ public class getSelectedFeatures {
         }
     }
 }
-}}
+
 //
 //
 //
